@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapp.control.LoginControllerFx">
+   <children>
+      <ImageView disable="true" fitHeight="720.0" fitWidth="1280.0" smooth="false">
+         <image>
+            <Image url="file:/C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/WebContent/lec-2019v2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonContinua" layoutX="198.0" layoutY="228.0" mnemonicParsing="false" onAction="#continua" prefHeight="28.0" prefWidth="82.0" text="Continua" />
+      <Label fx:id="labelGioca" alignment="CENTER" layoutX="84.0" layoutY="71.0" prefHeight="87.0" prefWidth="311.0" text="Clicca &quot;Gioca&quot; per iniziare una nuova partita." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonGioca" layoutX="198.0" layoutY="301.0" mnemonicParsing="false" onAction="#gioca" prefHeight="28.0" prefWidth="82.0" text="Gioca" />
+      <Label fx:id="o" alignment="CENTER" layoutX="229.0" layoutY="266.0" prefHeight="20.0" prefWidth="19.0" text="o" wrapText="true">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelContinua" alignment="CENTER" layoutX="84.0" layoutY="145.0" prefHeight="75.0" prefWidth="311.0" text="Oppure, &quot;Continua&quot; per effettuare il login." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelInserisciDati" alignment="CENTER" layoutX="931.0" layoutY="99.0" prefHeight="30.0" prefWidth="183.0" text="INSERISCI I TUOI DATI!" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" layoutX="956.0" layoutY="145.0" prefHeight="25.0" prefWidth="133.0" promptText="Username" visible="false" />
+      <PasswordField fx:id="tfPassword" layoutX="956.0" layoutY="182.0" prefHeight="25.0" prefWidth="133.0" promptText="Password" visible="false" />
+      <Button fx:id="buttonLogin" layoutX="982.0" layoutY="228.0" mnemonicParsing="false" onAction="#login" prefHeight="28.0" prefWidth="82.0" text="Login" visible="false" />
+      <Button fx:id="buttonRegistrati" layoutX="982.0" layoutY="228.0" mnemonicParsing="false" onAction="#registrati" prefHeight="28.0" prefWidth="82.0" text="Registrati" visible="false" />
+      <Label fx:id="labelIndex1" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="38.0" layoutY="387.0" prefHeight="124.0" prefWidth="403.0" text="La parte grafica è stata fatta interamente con librerie Bootstrap, mentre la parte logica con jsp, aggiungendo anche un database realizzato con MySQL." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="labelIndex3" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="38.0" layoutY="547.0" prefHeight="139.0" prefWidth="403.0" text="&quot;LEC&quot; sta per League of Legends European Championship." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="labelIndex2" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="844.0" layoutY="387.0" prefHeight="139.0" prefWidth="403.0" text="Mi sono ispirato alla parte competitiva e professionistica del gioco &quot;League of Legends&quot;, prenderne spunto è stato abbastanza facile, ed ho realizzato questo progetto perché fino ad ora una versione di &quot;Fanta Calcio&quot; per questo gioco non esisteva." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="labelIndex4" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="845.0" layoutY="544.0" prefHeight="145.0" prefWidth="403.0" text="Questa Web App non è altro che un gioco stile Fanta Calcio dove i giocatori sono i professionisti della scena competitiva europea di League of Legends.Puoi comprare giocatori, sistemare la tua formazione e simulare le partite." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="labelIndex1T" alignment="CENTER" layoutX="84.0" layoutY="358.0" prefHeight="17.0" prefWidth="311.0" text="Come ho realizzato la Web App?">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelIndex4T" alignment="CENTER" layoutX="884.0" layoutY="517.0" prefHeight="17.0" prefWidth="322.0" text="Cosa fa questa Web App?">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelIndex2T" alignment="CENTER" layoutX="885.0" layoutY="358.0" prefHeight="17.0" prefWidth="322.0" text="A cosa mi sono ispirato e perchè?">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelIndex3T" alignment="CENTER" layoutX="84.0" layoutY="518.0" prefHeight="17.0" prefWidth="311.0" text="Cosa significa &quot;LEC&quot;?">
+         <font>
+            <Font name="SansSerif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBenvenuto" alignment="CENTER" layoutX="194.0" layoutY="43.0" prefHeight="36.0" prefWidth="91.0" text="Benvenuto!">
+         <font>
+            <Font name="SansSerif Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

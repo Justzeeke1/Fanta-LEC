@@ -1,0 +1,286 @@
+section#button-container {
+	display: inline-block;
+	width: 100%;
+}
+
+section#button-container .container {
+	font-family: Bahnschrift;
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+section#button-container .button {
+    text-transform: uppercase;
+    color: #fff;
+    right: 42%;
+    margin-top: -4%;
+    cursor: pointer;
+}
+
+section#button-container .button .label {
+	padding: 10px;
+	display: inline-block;
+}
+
+section#button-container .button.v18:hover .icon {
+	-webkit-transform: scale(0.9) skew(0deg, 0deg);
+	transform: scale(0.9) skew(0deg, 0deg);
+}
+
+section#button-container .button.v18:hover .icon:before, section#button-container .button.v18:hover .icon:after
+	{
+	width: 60px;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+section#button-container .button.v18:hover .icon:before {
+	left: calc(50% - 30px);
+}
+
+section#button-container .button.v18:hover .icon:after {
+	right: calc(50% - 30px);
+}
+
+section#button-container .button.v18:hover .icon span:before, section#button-container .button.v18:hover .icon span:after
+	{
+	height: 0;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+section#button-container .button.v18:hover .icon2 {
+	-webkit-transform: skew(-40deg, 0deg) scaleX(1);
+	transform: skew(-40deg, 0deg) scaleX(1);
+	background: #0f62f9;
+	z-index: -1;
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+
+section#button-container .button.v18 .label {
+	padding: 10px 22px;
+}
+
+section#button-container .button.v18 .icon2 {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: skew(-40deg, 0deg) scaleX(0.2);
+	transform: skew(-40deg, 0deg) scaleX(0.2);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+section#button-container .button.v18 .icon {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: skew(-40deg, 0deg);
+	transform: skew(-40deg, 0deg);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+section#button-container .button.v18 .icon:before, section#button-container .button.v18 .icon:after
+	{
+	content: '';
+	height: 1px;
+	width: 30px;
+	position: absolute;
+	display: block;
+	background: #0f62f9;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+section#button-container .button.v18 .icon:before {
+	left: 0;
+	top: 0;
+}
+
+section#button-container .button.v18 .icon:after {
+	right: 0;
+	bottom: 0;
+}
+
+section#button-container .button.v18 .icon span:before, section#button-container .button.v18 .icon span:after
+	{
+	content: '';
+	background: #0f62f9;
+	position: absolute;
+	display: block;
+	width: 2px;
+	height: 30px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+section#button-container .button.v18 .icon span:before {
+	left: 0;
+	top: 0;
+}
+
+section#button-container .button.v18 .icon span:after {
+	right: 0;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#button-container .button.v19:hover .icon {
+	-webkit-transform: scale(0.9) skew(0deg, 0deg);
+	transform: scale(0.9) skew(0deg, 0deg);
+}
+
+section#button-container .button.v19:hover .icon:before, section#button-container .button.v19:hover .icon:after
+	{
+	width: 60px;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+section#button-container .button.v19:hover .icon:before {
+	left: calc(50% - 30px);
+}
+
+section#button-container .button.v19:hover .icon:after {
+	right: calc(50% - 30px);
+}
+
+section#button-container .button.v19:hover .icon span:before, section#button-container .button.v19:hover .icon span:after
+	{
+	height: 0;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+section#button-container .button.v19:hover .icon2 {
+	-webkit-transform: skew(-40deg, 0deg) scaleX(1);
+	transform: skew(-40deg, 0deg) scaleX(1);
+	background: #f0202f;
+	z-index: -1;
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+
+section#button-container .button.v19 .label {
+	padding: 10px 22px;
+}
+
+section#button-container .button.v19 .icon2 {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: skew(-40deg, 0deg) scaleX(0.2);
+	transform: skew(-40deg, 0deg) scaleX(0.2);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+section#button-container .button.v19 .icon {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: skew(-40deg, 0deg);
+	transform: skew(-40deg, 0deg);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+section#button-container .button.v19 .icon:before, section#button-container .button.v19 .icon:after
+	{
+	content: '';
+	height: 1px;
+	width: 30px;
+	position: absolute;
+	display: block;
+	background: #f0202f;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+section#button-container .button.v19 .icon:before {
+	left: 0;
+	top: 0;
+}
+
+section#button-container .button.v19 .icon:after {
+	right: 0;
+	bottom: 0;
+}
+
+section#button-container .button.v19 .icon span:before, section#button-container .button.v19 .icon span:after
+	{
+	content: '';
+	background: #f0202f;
+	position: absolute;
+	display: block;
+	width: 2px;
+	height: 30px;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+section#button-container .button.v19 .icon span:before {
+	left: 0;
+	top: 0;
+}
+
+section#button-container .button.v19 .icon span:after {
+	right: 0;
+	bottom: 0;
+}

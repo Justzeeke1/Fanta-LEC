@@ -1,0 +1,138 @@
+  /*
+ * Globals
+ */
+
+.header-img {
+	width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.btn {
+	transition: 0.4s;
+}
+/*
+ * Base structure
+ */
+.errorFormazione {
+	font-size: 1.50rem;
+	font-weight: 500;
+	position: absolute;
+    top: 41%;
+    right: 27%;
+}
+
+.errorFormazioneAvv {
+	font-size: 1.50rem;
+	font-weight: 500;
+	position: absolute;
+    top: 41%;
+    right: 33%;
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  font-family: sans-serif;
+  background-image: url("lec-2019v2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.img-player-container {
+	position: relative;
+	width: 263px;
+	height: 263px;
+}
+
+.img-player {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.form-input {
+	width: 55% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-8 {
+	margin-top: 8px;
+}
+
+.btn {
+	transition: 0.3s !important;
+}
+
+.btn-acquisto {
+	color: black !important;
+	border-color: black !important;
+}
+
+.btn-acquisto:hover {
+	color: white !important;
+	border-color: #198754 !important;
+	background-color: #198754;
+	
+}
+
+.button-gioca {
+	width: 100%;
+    position: relative;
+    top: 34%;
+    transition: 0.3s;
+}
+
+.button-crea-squadre {
+	width: 15% !important;
+    left: 43%;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button-cambia {
+	transition: 0.3s;
+}
+
+/*
+ * Header
+ */
+
+.nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  transition: 0.4s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom-color: #1d1d1d;
+  color: #1d1d1d;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}

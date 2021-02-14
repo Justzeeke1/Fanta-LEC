@@ -1,0 +1,87 @@
+@font-face {
+  font-family: FrizQuadrata;
+  src: url('../FrizQuadrata.ttf'),
+	   url('../FrizQuadrata.woff2'),
+  	   url('../FrizQuadrata.woff');
+}
+
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: -130px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.big-letter {
+	margin-bottom: 8%;
+	font-size: 110px;
+	color: #bfb675;
+	border-color: #28261a;
+	pointer-events: none;
+}
+
+.little-letter {
+	margin-bottom: 9%;
+	font-size: 80px;
+	color: #bfb675;
+	border-color: #28261a;
+	pointer-events: none;
+}
+
+.fade {
+	animation: 2.6s forwards;
+    animation-name: fade;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeButton {
+	animation: 3.6s forwards;
+    animation-name: fadeButton;
+    animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+}
+
+@keyframes fadeButton {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body{ 
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background: #131313;
+  color: #fff;
+  letter-spacing: 0.09em;
+  text-align: top;
+  font-family: 'FrizQuadrata';
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Progetto_Marco</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+        <servlet-name>ServletSetLoginToken</servlet-name>
+        <servlet-class>servlet.ServletSetLoginToken</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>servlet.ServletLogin</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletRegister</servlet-name>
+        <servlet-class>servlet.ServletRegister</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletSquadraPresente</servlet-name>
+        <servlet-class>servlet.ServletSquadraPresente</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletLogout</servlet-name>
+        <servlet-class>servlet.ServletLogout</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletCompra</servlet-name>
+        <servlet-class>servlet.ServletCompra</servlet-class>
+   </servlet>
+   <servlet>
+        <servlet-name>ServletGioca</servlet-name>
+        <servlet-class>servlet.ServletGioca</servlet-class>
+   </servlet>
+</web-app>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapp.control.MainControllerFx">
+	<children>
+		<TabPane tabClosingPolicy="UNAVAILABLE">
+			<Tab onSelectionChanged="#initMainHome" fx:id="home" text="Home">
+				<fx:include source="home.fxml" />
+			</Tab>
+			<Tab  fx:id="myteam" text="My Team">
+				<fx:include source="myteam.fxml" />
+			</Tab>
+			<Tab onSelectionChanged="#initMainMercato" fx:id="mercato" text="Mercato">
+				<fx:include source="mercato.fxml" />
+			</Tab>
+			<Tab onSelectionChanged="#logout" text="Logout">
+			</Tab>
+		</TabPane>
+	</children>
+</AnchorPane>
