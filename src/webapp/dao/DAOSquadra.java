@@ -115,14 +115,9 @@ public class DAOSquadra {
 		Squadra squadra2 = null;
 		for (String s : scontri) {
 			int counterVittorieSquadra1 = 0;
-			System.out.println(s);
 			// PRENDO LE SQUADRE
 			squadra1 = findById(Long.parseLong(s.split("-")[0]));
 			squadra2 = findById(Long.parseLong(s.split("-")[1]));
-			System.out.println("-------------");
-			System.out.println(squadra1);
-			System.out.println(squadra2);
-			System.out.println("-------------");
 			// PRENDO I GIOCATORI
 			List<Giocatore> giocatoriSq1 = daoGiocatore.findAllMyTeam(squadra1.getId());
 			giocatoriSq1 = daoGiocatore.orderTeamView(giocatoriSq1);
@@ -135,13 +130,9 @@ public class DAOSquadra {
 				// CALCOLO LA PROBABILITA
 				int probVittoriaGiocatore1 = 50 + (giocatore1.getOverall() - giocatore2.getOverall()) * 2;
 				if ((Math.random() * 100) + 1 <= probVittoriaGiocatore1) {
-					System.out.println("Giocatore 1 vince!");
 					counterVittorieSquadra1++;
-				} else {
-					System.out.println("Giocatore 2 vince!");
 				}
 			}
-			System.out.println(counterVittorieSquadra1);
 			if (counterVittorieSquadra1 < 3) {
 				squadra1.setSconfitte(squadra1.getSconfitte() + 1);
 				squadra1.setPunteggio(squadra1.getPunteggio() + 1);
@@ -153,12 +144,6 @@ public class DAOSquadra {
 				squadra1.setVittorie(squadra1.getVittorie() + 1);
 				squadra1.setPunteggio(squadra1.getPunteggio() + 3);
 			}
-			System.out.println("-------------");
-			System.out.println(
-					squadra1.getPunteggio() + " | " + squadra1.getVittorie() + " | " + squadra1.getSconfitte());
-			System.out.println(
-					squadra2.getPunteggio() + " | " + squadra2.getVittorie() + " | " + squadra2.getSconfitte());
-			System.out.println("-------------");
 			query = "UPDATE squadra SET vittorie = ?, sconfitte = ?, punteggio = ? WHERE (id = ?)";
 			try (Connection connection = instance.getConnection();
 					PreparedStatement statement = connection.prepareStatement(query);) {
@@ -212,8 +197,6 @@ public class DAOSquadra {
 					String query = "UPDATE giocatore SET id_squadra = ? WHERE id = ?";
 					try (Connection connection = instance.getConnection();
 							PreparedStatement statement = connection.prepareStatement(query);) {
-						System.out.println("Squadra: " + squadra.getId());
-						System.out.println("Giocatore: " + giocatore.getId());
 						statement.setLong(1, squadra.getId());
 						statement.setLong(2, giocatore.getId());
 						statement.executeUpdate();

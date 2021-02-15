@@ -110,8 +110,6 @@ public class MercatoControllerFx implements Initializable {
 
 	private void initCreaSquadre(List<Giocatore> giocatoriTitolari) {
 		Boolean areSquadreCreated = squadraController.areSquadreCreated(squadra.getId());
-		System.out.println(giocatoriTitolari.size() == 5);
-		System.out.println(!areSquadreCreated);
 		if (giocatoriTitolari.size() == 5 && !areSquadreCreated) {
 			buttonCreaSquadre.setVisible(true);
 		} else {

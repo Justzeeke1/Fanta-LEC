@@ -117,8 +117,6 @@ public class HomeControllerFx implements Initializable {
 	public void initialize(URL location, ResourceBundle rs) {
     	url = location;
     	resBundle = rs;
-    	System.out.println(url);
-    	System.out.println(resBundle);
 		allenatore = Main.getAllenatore();
 		squadra = Main.getSquadra();
 		List<Giocatore> giocatoriTotali = new ArrayList<Giocatore>();

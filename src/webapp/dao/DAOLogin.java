@@ -22,8 +22,6 @@ public class DAOLogin {
 			ResultSet resultSet = statement.executeQuery();
 			if (resultSet.next()) {
 				allenatore = mapRow(resultSet);
-				System.out.println("------ Login effettuato! Hai loggato con l'utenza:");
-				System.out.println(allenatore);
 			}
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
@@ -65,7 +63,6 @@ public class DAOLogin {
 			System.out.println(e.getMessage());
 			throw new Exception(e.getMessage(), e);
 		}
-		System.out.println(allenatore);
 		return allenatore;
 	}
 
