@@ -1,16 +1,17 @@
 
-9org.apache.jsp.index_jsp#getClassImports()Ljava/util/Set;m
-cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java7) 7(8"1*“
+7org.apache.jsp.index_jsp#getDependants()Ljava/util/Map;m
+cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java/8 /(E"1*¿
 1m
-cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java8 8( •
-’
+cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java0 0(Á
+¾
 m
-cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java8 8( 
-%0java.util.Set"__id*
-"""†
+cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java0 0(
+%0java.util.Map"__id*2*0
+org.apache.jsp.index_jsp"
+_jspx_dependants"†
 m
-cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java8 8(!
+cC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\index_jsp.java0 0(
 
-%0java.util.Set:
+%0java.util.Map:
 %jsp_contextB
 org.apache.jsp.index_jsp

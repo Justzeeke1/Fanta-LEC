@@ -1,16 +1,17 @@
 
-8org.apache.jsp.home_jsp#getClassImports()Ljava/util/Set;l
-bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaF) F(8"1*
+6org.apache.jsp.home_jsp#getDependants()Ljava/util/Map;l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java>8 >(E"1*»
 1l
-bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaG G( ”
-‘
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java? ?(¿
+¼
 l
-bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaG G( 
-%0java.util.Set"__id*
-"""…
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java? ?(
+%0java.util.Map"__id*1*/
+org.apache.jsp.home_jsp"
+_jspx_dependants"…
 l
-bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaG G(!
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java? ?(
 
-%0java.util.Set:
+%0java.util.Map:
 %jsp_contextB
 org.apache.jsp.home_jsp

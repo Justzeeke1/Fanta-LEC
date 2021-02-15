@@ -1,133 +1,115 @@
 
-Lwebapp.dao.DAOAllenatore#findById(Ljava/lang/Long;)Lwebapp/model/Allenatore;`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("10*†
-2`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("≥
-∞
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("%
-
-allenatorewebapp.model.Allenatore"__id*
-
-%8webapp.model.Allenatore*
-1*Ç
-3`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (ï
-í
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("
-%8webapp.model.Allenatore"Nwebapp.dao.DAOAllenatore#mapRow(Ljava/sql/ResultSet;)Lwebapp/model/Allenatore;*
-webapp.dao.DAOAllenatore*!
-
-	resultSetjava.sql.ResultSet*
-2*÷
-5`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (2®
-•
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (2
-	resultSetjava.sql.ResultSet"__id*
-
-%6java.sql.ResultSetª∏
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (
-%7boolean"java.sql.ResultSet#next()Z*!
-
-	resultSetjava.sql.ResultSet2next()*
-3
-1*Ê
-6`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("˘ˆ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (1
-%6java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*)
-'
-	statementjava.sql.PreparedStatement2executeQuery()*
-5*ò
-7`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (D∏
-µ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (D'
-	statementjava.sql.PreparedStatement"__id*"
- 
-%4java.sql.PreparedStatementÌ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (
-
-%5void"'java.sql.PreparedStatement#setLong(IJ)V*)
-'
-	statementjava.sql.PreparedStatement*2*
-
-idjava.lang.Long2setLong(IJ)*
-6*‡
-8`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (7´
-®
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (7!
-
-connectionjava.sql.Connection"__id*
-
-%3java.sql.Connection≈¬
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java" (D 
-%4java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*#
-!
-
-connectionjava.sql.Connection*
-
-queryjava.lang.String2$prepareStatement(Ljava/lang/String;)*
-7*„
-9`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ('ˆÛ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (7
-%3java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
-#
-instancewebapp.model.DataSource2getConnection()*
-8* 	
-10`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("·
-ﬁ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (0
-%0webapp.model.DataSource">webapp.model.DataSource#getInstance()Lwebapp/model/DataSource;*"
-webapp.model.DataSource±
-Æ
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (1#
-instancewebapp.model.DataSource"__id*
-
-%0webapp.model.DataSourceùö
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ((
-%1webapp.model.Allenatore"webapp.model.AllenatoreØ
-¨
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (*
-%2"!webapp.model.Allenatore#<init>()V*
-
-%1webapp.model.Allenatore≥
-∞
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (+%
-
-allenatorewebapp.model.Allenatore"__id*
-
-%1webapp.model.Allenatoreº
+<javafxapp.model.TableClassifica#toString()Ljava/lang/String;g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaA A("1*…
+1g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(&æ
+ª
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB) B(2
+%0java.lang.String"__id*2*0!
+javafxapp.model.TableClassifica"
+	posizione…
+∆
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(2
+%1java.lang.String"__concat*
+TableClassifica [posizione=*
+
+%0java.lang.Stringº
 π
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (D
-queryjava.lang.String"__id*42
-0SELECT * FROM allenatore WHERE allenatore.id = ?*
-9*Û
-1`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java	 ("ã
-`
-VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ('
-%
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(E
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, nomeSquadra=¿
+Ω
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaBH B(S
+%3java.lang.String"__id*4*2!
+javafxapp.model.TableClassifica"
+nomeSquadra¬
+ø
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(S
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String∫
+∑
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(d
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, punteggio=æ
+ª
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaBg B(p
+%6java.lang.String"__id*2*0!
+javafxapp.model.TableClassifica"
+	punteggio¬
+ø
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 B(p
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.Stringπ
+∂
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 C(
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, vittorie=Ω
+∫
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaC C(
+%9java.lang.String"__id*1*/!
+javafxapp.model.TableClassifica"
 
-allenatorewebapp.model.Allenatore:
-idjava.lang.LongB
-webapp.dao.DAOAllenatore
+vittorie√
+¿
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 C(
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.Stringº
+π
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 C(/
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+, sconfitte=ø
+º
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaC2 C(;
+%12java.lang.String"__id*2*0!
+javafxapp.model.TableClassifica"
+	sconfitte≈
+¬
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 C(;
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.lang.String±
+Æ
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB	 C(A
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+]"Ñ
+g
+]C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableClassifica.javaB C(B
+
+%14java.lang.StringB#!
+javafxapp.model.TableClassifica

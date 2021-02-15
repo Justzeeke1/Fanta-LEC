@@ -1,10 +1,10 @@
 
 [webapp.dao.DAOLogin#register(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java, ,("25*Þ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java* *("25*Þ
 24[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java/  /((ðí
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java-  -((ðí
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java/  /(6
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java-  -(6
 %4boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
 
 passwordjava.lang.String*
@@ -12,51 +12,51 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 22
 23*Ó
 13[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(:¨
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(:¨
 ¥
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(:#
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(:#
 generatedKeysjava.sql.ResultSet"__id*
 
 %13java.sql.ResultSet»¸
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java9 9(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java7 7(
 %14boolean"java.sql.ResultSet#next()Z*%
 #
 generatedKeysjava.sql.ResultSet2next()*
 11
 1*å	
 25[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java- -("Ü
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java+ +("Ü
 Ù
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java- -(0
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java+ +(0
 %0webapp.model.DataSource">webapp.model.DataSource#getInstance()Lwebapp/model/DataSource;*"
 webapp.model.DataSource¬
 ©
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java- -(1#
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java+ +(1#
 instancewebapp.model.DataSource"__id*
 
 %0webapp.model.DataSource˜•
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java. .((
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java, ,((
 %1webapp.model.Allenatore"webapp.model.Allenatoreª
 §
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java. .(*
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java, ,(*
 %2"!webapp.model.Allenatore#<init>()V*
 
 %1webapp.model.Allenatore®
 «
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java. .(+%
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java, ,(+%
 
 allenatorewebapp.model.Allenatore"__id*
 
 %1webapp.model.Allenatoreðí
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java/ /(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java- -(
 %3boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
 
 usernamejava.lang.String*
@@ -64,26 +64,26 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 24
 23*ß
 14[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(&õò
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(&õò
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(9
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(9
 %13java.sql.ResultSet"9java.sql.Statement#getGeneratedKeys()Ljava/sql/ResultSet;*)
 '
 	statementjava.sql.PreparedStatement2getGeneratedKeys()*
 13*¿
 15[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java7 7(ÕÒ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java5 5(ÕÒ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java7 7(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java5 5(
 
 %12int"+java.sql.PreparedStatement#executeUpdate()I*)
 '
 	statementjava.sql.PreparedStatement2executeUpdate()*
 14*ÿ
 16[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(*•’
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4(*•’
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(*
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4(*
 %11void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*)
 '
 	statementjava.sql.PreparedStatement*2*
@@ -91,17 +91,17 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 %10java.lang.String2setString(ILjava/lang/String;)*
 15*¶
 17[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6(ÌÉ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4(ÌÉ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java6 6()
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4()
 %10java.lang.String")java.lang.String#trim()Ljava/lang/String;*
 
 passwordjava.lang.String2trim()*
 16*ý
 18[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java5 5(*“
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3(*“
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java5 5(*
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3(*
 
 %9void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*)
 '
@@ -110,52 +110,39 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 %8java.lang.String2setString(ILjava/lang/String;)*
 17*ë
 19[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4(e³
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2 2(e³
 °
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4 4(e'
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2 2(e'
 	statementjava.sql.PreparedStatement"__id*"
  
 %7java.sql.PreparedStatementËÈ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java5 5()
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3()
 %8java.lang.String")java.lang.String#trim()Ljava/lang/String;*
 
 usernamejava.lang.String2trim()*
-18*ü
+18*é
 1[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaD D(Š
-‡
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaB	 B("†
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaD D(
-%26java.io.PrintStream"__id*
-""ƒ€
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaD D( 
-%27void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
-
-%26java.io.PrintStream*'
-%
-
-allenatorewebapp.model.Allenatore2println(Ljava/lang/Object;)"†
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaE E('
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.javaB B('
 %
 
 allenatorewebapp.model.Allenatore*à
 7[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java> >(øõ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java< <(øõ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java> >(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java< <(
 %19void"8webapp.model.Allenatore#setCrediti(Ljava/lang/Integer;)V*'
 %
 
 allenatorewebapp.model.Allenatore*2ô2setCrediti(Ljava/lang/Integer;)*
 1*ù
 8[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java= =(‘Ž
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java; ;(‘Ž
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java= =($
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java; ;($
 %18void"8webapp.model.Allenatore#setPassword(Ljava/lang/String;)V*'
 %
 
@@ -164,9 +151,9 @@ allenatorewebapp.model.Allenatore*
 passwordjava.lang.String2setPassword(Ljava/lang/String;)*
 7*ù
 9[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java< <(‘Ž
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :(‘Ž
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java< <($
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :($
 %17void"8webapp.model.Allenatore#setUsername(Ljava/lang/String;)V*'
 %
 
@@ -175,21 +162,21 @@ allenatorewebapp.model.Allenatore*
 usernamejava.lang.String2setUsername(Ljava/lang/String;)*
 8*Ü
 20[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3(7¦
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java1 1(7¦
 £
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3(7!
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java1 1(7!
 
 connectionjava.sql.Connection"__id*
 
 %5java.sql.Connectionx
 v
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4E 4(d	
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2E 2(d	
 %6int"__id*
 ""ÏÌ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java4" 4(e 
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2" 2(e 
 %7java.sql.PreparedStatement"Ujava.sql.Connection#prepareStatement(Ljava/lang/String;I)Ljava/sql/PreparedStatement;*#
 !
 
@@ -200,23 +187,23 @@ connectionjava.sql.Connection*
 %6int2%prepareStatement(Ljava/lang/String;I)*
 19*Û
 21[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3('ñî
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java1 1('ñî
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java3 3(7
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java1 1(7
 %5java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
 #
 instancewebapp.model.DataSource2getConnection()*
 20*ð
 10[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :('‹
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8('‹
 ˆ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :('
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8('
 idjava.lang.Long"__id*
 
 %15longùö
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java; ;(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java9 9(
 %16void"0webapp.model.Allenatore#setId(Ljava/lang/Long;)V*'
 %
 
@@ -225,27 +212,27 @@ allenatorewebapp.model.Allenatore*
 idjava.lang.Long2setId(Ljava/lang/Long;)*
 9*»
 22[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2 2(]Ñ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java0 0(]Ñ
 Î
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java2 2(^
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java0 0(^
 queryjava.lang.String"__id*NL
 JINSERT INTO allenatore (username, password, crediti) VALUES (?, ?, '500');*
 21*°
 11[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :(ÆÃ
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(ÆÃ
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java: :(&
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java8 8(&
 %15long"java.sql.ResultSet#getLong(I)J*%
 #
 generatedKeysjava.sql.ResultSet*22
 getLong(I)*
 10*È
 23[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java0
- 0("e
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java.
+ .("e
 [
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java0 0(
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java. .(
 "":
 usernamejava.lang.String:
 passwordjava.lang.StringB

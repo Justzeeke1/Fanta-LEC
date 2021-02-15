@@ -1,16 +1,17 @@
 
-?org.apache.jsp.finePartita_jsp#getClassImports()Ljava/util/Set;s
-iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java8) 8(8"1*¥
+=org.apache.jsp.finePartita_jsp#getDependants()Ljava/util/Map;s
+iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java08 0(E"1*×
 1s
-iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java9 9( ›
-˜
+iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java1 1(Í
+Ê
 s
-iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java9 9( 
-%0java.util.Set"__id*
-"""Œ
+iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java1 1(
+%0java.util.Map"__id*8*6 
+org.apache.jsp.finePartita_jsp"
+_jspx_dependants"Œ
 s
-iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java9 9(!
+iC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\finePartita_jsp.java1 1(
 
-%0java.util.Set:
+%0java.util.Map:
 %jsp_contextB" 
 org.apache.jsp.finePartita_jsp

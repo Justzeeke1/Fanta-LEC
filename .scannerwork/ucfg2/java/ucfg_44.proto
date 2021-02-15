@@ -1,17 +1,16 @@
 
-7webapp.model.Allenatore#getPassword()Ljava/lang/String;_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java& &("1*‘
+7webapp.model.Allenatore#getCrediti()Ljava/lang/Integer;_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java. .("1*’
 1_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java'	 '(­
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java/	 /(­
 ª
 _
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java'	 '(
-%0java.lang.String"__id*)*'
-webapp.model.Allenatore"
-
-password"{
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java/	 /(
+%0java.lang.Integer"__id*(*&
+webapp.model.Allenatore"	
+crediti"|
 _
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java' '(
-
-%0java.lang.StringB
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java/ /(
+
+%0java.lang.IntegerB
 webapp.model.Allenatore

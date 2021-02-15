@@ -1,51 +1,48 @@
 
-kwebapp.control.AllenatoreController#register(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java' '("6*∂
-2k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java* *(5æ
-ª
-k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java* *(5%
+Xjavafxapp.control.MyTeamControllerFx#getInstance()Ljavafxapp/control/MyTeamControllerFx;l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java"" "(-"3*Ú
+2l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java$ $(&√¿
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java$ $($*
+%1$javafxapp.control.MyTeamControllerFx"$javafxapp.control.MyTeamControllerFx’
+“
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java$ $(&
+%2".javafxapp.control.MyTeamControllerFx#<init>()V*,
+*
+%1$javafxapp.control.MyTeamControllerFx€
+ÿ
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java$ $(&4&
+$javafxapp.control.MyTeamControllerFx"
 
-allenatorewebapp.model.Allenatore"__id*
-
-%1webapp.model.Allenatore*
-1*º
-5k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java* *(»
-≈
-k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java* *(
-%0webapp.dao.DAOLogin"__id*5*3%
-#webapp.control.AllenatoreController"
+INSTANCE"__id*,
+*
+%1$javafxapp.control.MyTeamControllerFx*
+1*◊
+3l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java# #(€
+ÿ
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java# #(*
+%0$javafxapp.control.MyTeamControllerFx"__id*6*4&
+$javafxapp.control.MyTeamControllerFx"
 
-daoLogin˘ˆ
-k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java* *(5
-%1webapp.model.Allenatore"[webapp.dao.DAOLogin#register(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;*
-
-%0webapp.dao.DAOLogin*
-
-usernamejava.lang.String*
-
-passwordjava.lang.String2.register(Ljava/lang/String;Ljava/lang/String;)*
-2*ù
-6k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java( ((•
-¢
-k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java( ((%
+INSTANCE*
+2
+1*Ó
+1l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java&	 &(€
+ÿ
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java&	 &(*
+%3$javafxapp.control.MyTeamControllerFx"__id*6*4&
+$javafxapp.control.MyTeamControllerFx"
 
-allenatorewebapp.model.Allenatore"__id*
-""*
-5*â
-1k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java. .("ñ
-k
-aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java. .('
-%
-
-allenatorewebapp.model.Allenatore:
-usernamejava.lang.String:
-passwordjava.lang.StringB'%
-#webapp.control.AllenatoreController
+INSTANCE"ú
+l
+bC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/MyTeamControllerFx.java& &(,
+*
+%3$javafxapp.control.MyTeamControllerFxB("&
+$javafxapp.control.MyTeamControllerFx

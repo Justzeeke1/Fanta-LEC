@@ -1,59 +1,16 @@
 
-Vorg.apache.jsp.header_jsp#_jsp_getInstanceManager()Lorg/apache/tomcat/InstanceManager;n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaD+ D(B"5*Î
-2n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaH! H($êç
-n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaHe H(w!
-%2javax.servlet.ServletConfig"Ejavax.servlet.Servlet#getServletConfig()Ljavax/servlet/ServletConfig;*
-org.apache.jsp.header_jsp2getServletConfig()ˇ
-¸
-n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaH! H(x'
-%3!org.apache.tomcat.InstanceManager"Öorg.apache.jasper.runtime.InstanceManagerFactory#getInstanceManager(Ljavax/servlet/ServletConfig;)Lorg/apache/tomcat/InstanceManager;*4"2
-0org.apache.jasper.runtime.InstanceManagerFactory*#
-!
-%2javax.servlet.ServletConfig€
-ÿ
-n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaH
- H(x5
-org.apache.jsp.header_jsp"
-_jsp_instancemanager"__id*)
-'
-%3!org.apache.tomcat.InstanceManager*
-1*Ÿ
-3n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaG G( €
-ÿ
-n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaG G( '
-%1!org.apache.tomcat.InstanceManager"__id*7*5
-org.apache.jsp.header_jsp"
-_jsp_instancemanager*
-2
-1*Ÿ
-5n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaE E(€
-ÿ
-n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaE E('
-%0!org.apache.tomcat.InstanceManager"__id*7*5
-org.apache.jsp.header_jsp"
-_jsp_instancemanager*
-3
-1*Ô
+:org.apache.jsp.header_jsp#getClassImports()Ljava/util/Set;n
+dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.java5) 5(8"1*ñ
 1n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaL L(€
-ÿ
+dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.java6 6( ñ
+ì
 n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaL L('
-%4!org.apache.tomcat.InstanceManager"__id*7*5
-org.apache.jsp.header_jsp"
-_jsp_instancemanager"õ
+dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.java6 6( 
+%0java.util.Set"__id*
+"""á
 n
-dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.javaL L( )
-'
-%4!org.apache.tomcat.InstanceManager:
+dC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\header_jsp.java6 6(!
+
+%0java.util.Set:
 %jsp_contextB
 org.apache.jsp.header_jsp

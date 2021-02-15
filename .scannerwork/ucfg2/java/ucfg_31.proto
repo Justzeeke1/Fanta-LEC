@@ -1,9 +1,17 @@
 
-$webapp.model.Squadra#getPunteggio()I\
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java9 9("1*É
+=webapp.model.Squadra#getAllenatore()Lwebapp/model/Allenatore;\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaA A( "1*•
 1\
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java:	 :("f
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaB	 B(°
+­
 \
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java: :(
-""B
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaB	 B(
+%0webapp.model.Allenatore"__id*(*&
+webapp.model.Squadra"
+
+allenatore"
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaB B(
+
+%0webapp.model.AllenatoreB
 webapp.model.Squadra

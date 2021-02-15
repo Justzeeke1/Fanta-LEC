@@ -1,52 +1,60 @@
 
-Jwebapp.control.SquadraController#findAllOrderByPunteggio()Ljava/util/List;h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaC C(-"6*õ
+hwebapp.control.SquadraController#save(Ljava/lang/String;Lwebapp/model/Allenatore;)Lwebapp/model/Squadra;h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java. .("6*ß
 2h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaF F(1¶
-£
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5≤
+Ø
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaF F(1
-squadrejava.util.List"__id*
-
-%3java.util.List*
-1*º
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5
+squadrawebapp.model.Squadra"__id*
+
+%3webapp.model.Squadra*
+1*ƒ
 5h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaF F(∆
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(∆
 √
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaF F(
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(
 %2webapp.dao.DAOSquadra"__id*4*2"
  webapp.control.SquadraController"
 
-daoSquadra˛˚
+daoSquadraÜÉ
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaF F(1
-%3java.util.List"?webapp.dao.DAOSquadra#findAllOrderByPunteggio()Ljava/util/List;*
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5
+%3webapp.model.Squadra"]webapp.dao.DAOSquadra#save(Ljava/lang/String;Lwebapp/model/Allenatore;)Lwebapp/model/Squadra;*
 
-%2webapp.dao.DAOSquadra2findAllOrderByPunteggio()*
-2*Ú
+%2webapp.dao.DAOSquadra*!
+
+nomeSquadrajava.lang.String*'
+%
+
+allenatorewebapp.model.Allenatore21save(Ljava/lang/String;Lwebapp/model/Allenatore;)*
+2*˝
 6h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaD D(2ùö
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(!üú
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaD D(0
-%0java.util.ArrayList"java.util.ArrayListØ
-¨
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(
+%0webapp.model.Squadra"webapp.model.Squadra±
+Æ
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaD D(2
-%1"java.util.ArrayList#<init>()V*
-
-%0java.util.ArrayList´
-®
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(!
+%1"webapp.model.Squadra#<init>()V*
+
+%0webapp.model.Squadra≤
+Ø
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaD D(3
-squadrejava.util.List"__id*
-
-%0java.util.ArrayList*
-5*˜
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /("
+squadrawebapp.model.Squadra"__id*
+
+%0webapp.model.Squadra*
+5*˝
 1h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaJ	 J("á
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java5	 5("ç
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaJ J(
-
-squadrejava.util.ListB$"
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java5 5(!
+
+squadrawebapp.model.Squadra:
+nomeSquadrajava.lang.String:%
+
+allenatorewebapp.model.AllenatoreB$"
  webapp.control.SquadraController

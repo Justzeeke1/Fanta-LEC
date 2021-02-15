@@ -1,16 +1,17 @@
 
-;org.apache.jsp.mercato_jsp#getClassImports()Ljava/util/Set;o
-eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaD) D(8"1*™
+9org.apache.jsp.mercato_jsp#getDependants()Ljava/util/Map;o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java<8 <(E"1*Ç
 1o
-eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaE E( —
-”
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java= =(Å
+Â
 o
-eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaE E( 
-%0java.util.Set"__id*
-"""ˆ
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java= =(
+%0java.util.Map"__id*4*2
+org.apache.jsp.mercato_jsp"
+_jspx_dependants"ˆ
 o
-eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaE E(!
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java= =(
 
-%0java.util.Set:
+%0java.util.Map:
 %jsp_contextB
 org.apache.jsp.mercato_jsp

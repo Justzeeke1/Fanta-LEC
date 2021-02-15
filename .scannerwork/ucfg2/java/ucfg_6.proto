@@ -1,26 +1,15 @@
 
 [webapp.dao.DAOLogin#validate(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("19*˝
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("18*µ
 13[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*ìê
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*
-
-%6void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*)
-'
-	statementjava.sql.PreparedStatement*2*
-
-%5java.lang.String2setString(ILjava/lang/String;)*
-12*µ
-14[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (À»
 [
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ()
 %5java.lang.String")java.lang.String#trim()Ljava/lang/String;*
 
 passwordjava.lang.String2trim()*
-13*˝
-15[
+12*˝
+14[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*ìê
 [
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*
@@ -30,8 +19,8 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 	statementjava.sql.PreparedStatement*2*
 
 %3java.lang.String2setString(ILjava/lang/String;)*
-14*Î
-16[
+13*Î
+15[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (D≥
 ∞
 [
@@ -44,8 +33,8 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 %3java.lang.String")java.lang.String#trim()Ljava/lang/String;*
 
 usernamejava.lang.String2trim()*
-15*”
-17[
+14*”
+16[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (7¶
 £
 [
@@ -62,16 +51,16 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 connectionjava.sql.Connection*
 
 queryjava.lang.String2$prepareStatement(Ljava/lang/String;)*
-16*€
-18[
+15*€
+17[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ('ÒÓ
 [
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (7
 %1java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
 #
 instancewebapp.model.DataSource2getConnection()*
-17*È
-19[
+16*È
+18[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("‹
 Ÿ
 [
@@ -95,32 +84,8 @@ allenatorewebapp.model.Allenatore"__id*
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (f
 queryjava.lang.String"__id*VT
 RSELECT * FROM allenatore WHERE allenatore.username = ? AND allenatore.password = ?*
-18*È
-1[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java 	  ("Ü
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java   ('
-%
-
-allenatorewebapp.model.Allenatore*¯
+17*ñ
 7[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (
-ä
-á
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (
-%12java.io.PrintStream"__id*
-""ÉÄ
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("
-%13void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
-
-%12java.io.PrintStream*'
-%
-
-allenatorewebapp.model.Allenatore2println(Ljava/lang/Object;)*
-1*∏
-8[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("Æ
 ´
 [
@@ -128,20 +93,9 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 
 allenatorewebapp.model.Allenatore"__id*
 
-%9webapp.model.Allenatoreä
-á
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (
-%10java.io.PrintStream"__id*
-""íè
-[
-QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (L
-%11void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%10java.io.PrintStream*64
-2------ Login effettuato! Hai loggato con l'utenza:2println(Ljava/lang/String;)*
-7*Ó
-9[
+%9webapp.model.Allenatore*
+1*Ó
+8[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (Ü
 É
 [
@@ -150,8 +104,8 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 webapp.dao.DAOLogin*!
 
 	resultSetjava.sql.ResultSet*
-8*»
-11[
+7*»
+10[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (2£
 †
 [
@@ -164,16 +118,34 @@ QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.ja
 %8boolean"java.sql.ResultSet#next()Z*!
 
 	resultSetjava.sql.ResultSet2next()*
-9
+8
 1*ﬁ
-12[
+11[
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ("ÙÒ
 [
 QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (1
 %7java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*)
 '
 	statementjava.sql.PreparedStatement2executeQuery()*
-11:
+10*˝
+12[
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*ìê
+[
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java (*
+
+%6void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*)
+'
+	statementjava.sql.PreparedStatement*2*
+
+%5java.lang.String2setString(ILjava/lang/String;)*
+11*È
+1[
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java	 ("Ü
+[
+QC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOLogin.java ('
+%
+
+allenatorewebapp.model.Allenatore:
 usernamejava.lang.String:
 passwordjava.lang.StringB
 webapp.dao.DAOLogin

@@ -1,60 +1,45 @@
 
-hwebapp.control.SquadraController#save(Ljava/lang/String;Lwebapp/model/Allenatore;)Lwebapp/model/Squadra;h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java. .("6*ß
+Qwebapp.control.SquadraController#findById(Ljava/lang/Long;)Lwebapp/model/Squadra;h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java ("6*ß
 2h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5≤
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java ($≤
 Ø
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java ($
 squadrawebapp.model.Squadra"__id*
 
-%3webapp.model.Squadra*
-1*ƒ
+%1webapp.model.Squadra*
+1*‚
 5h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(∆
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java (∆
 √
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(
-%2webapp.dao.DAOSquadra"__id*4*2"
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java (
+%0webapp.dao.DAOSquadra"__id*4*2"
  webapp.control.SquadraController"
 
-daoSquadraÜÉ
+daoSquadra§°
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java1 1(5
-%3webapp.model.Squadra"]webapp.dao.DAOSquadra#save(Ljava/lang/String;Lwebapp/model/Allenatore;)Lwebapp/model/Squadra;*
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java ($
+%1webapp.model.Squadra"Fwebapp.dao.DAOSquadra#findById(Ljava/lang/Long;)Lwebapp/model/Squadra;*
 
-%2webapp.dao.DAOSquadra*!
-
-nomeSquadrajava.lang.String*'
-%
-
-allenatorewebapp.model.Allenatore21save(Ljava/lang/String;Lwebapp/model/Allenatore;)*
-2*˝
+%0webapp.dao.DAOSquadra*
+
+idjava.lang.Long2findById(Ljava/lang/Long;)*
+2*ë
 6h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(!üú
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java (ú
+ô
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(
-%0webapp.model.Squadra"webapp.model.Squadra±
-Æ
-h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /(!
-%1"webapp.model.Squadra#<init>()V*
-
-%0webapp.model.Squadra≤
-Ø
-h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java/ /("
-squadrawebapp.model.Squadra"__id*
-
-%0webapp.model.Squadra*
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java (
+squadrawebapp.model.Squadra"__id*
+""*
 5*˝
 1h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java5	 5("ç
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java!	 !("ç
 h
-^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java5 5(!
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java! !(!
 
-squadrawebapp.model.Squadra:
-nomeSquadrajava.lang.String:%
-
-allenatorewebapp.model.AllenatoreB$"
+squadrawebapp.model.Squadra:
+idjava.lang.LongB$"
  webapp.control.SquadraController

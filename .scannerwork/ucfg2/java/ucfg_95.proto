@@ -1,96 +1,30 @@
 
-çwebapp.control.GiocatoreController#compraGiocatore(Lwebapp/model/Giocatore;Ljava/lang/Long;Lwebapp/model/Allenatore;)Lwebapp/model/Giocatore;j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java@ @(!"10*ô
-4j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaG G(¢
-ü
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaG G(#
-	giocatorewebapp.model.Giocatore"__id*
-""*
-1*ë
-5j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaD D(/õ
-ò
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaD D(0
-creditijava.lang.Integer"__id*
-""–
-Õ
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaE E(
-%5webapp.dao.DAOAllenatore"__id*9*7$
-"webapp.control.GiocatoreController"
-daoAllenatore©¶
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaE E(6
-%6webapp.model.Allenatore"owebapp.dao.DAOAllenatore#modificaCrediti(Lwebapp/model/Allenatore;Ljava/lang/Integer;)Lwebapp/model/Allenatore;* 
-
-%5webapp.dao.DAOAllenatore*'
-%
-
-allenatorewebapp.model.Allenatore*
-
-creditijava.lang.Integer2=modificaCrediti(Lwebapp/model/Allenatore;Ljava/lang/Integer;)*
-1*á
-6j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaC C(B∫
-∑
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaC C(B#
-	giocatorewebapp.model.Giocatore"__id*
-
-%3webapp.model.Giocatore”–
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaD D(/	
-%4int"#webapp.model.Giocatore#getPrezzo()I*%
-#
-	giocatorewebapp.model.Giocatore2getPrezzo()*
-5*‚
-7j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaC C(Œ
+Rwebapp.control.GiocatoreController#orderTeamView(Ljava/util/List;)Ljava/util/List;j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java; ;(%"1*µ
+1j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java<" <(.Œ
 À
 j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaC C(
-%2webapp.dao.DAOGiocatore"__id*8*6$
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java<" <(.
+%0webapp.dao.DAOGiocatore"__id*8*6$
 "webapp.control.GiocatoreController"
-daoGiocatoreöó
+daoGiocatoreØ¨
 j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaC C(B
-%3webapp.model.Giocatore"iwebapp.dao.DAOGiocatore#compraGiocatore(Lwebapp/model/Giocatore;Ljava/lang/Long;)Lwebapp/model/Giocatore;*
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java<" <(G
+%1java.util.List"Gwebapp.dao.DAOGiocatore#orderTeamView(Ljava/util/List;)Ljava/util/List;*
 
-%2webapp.dao.DAOGiocatore*%
-#
-	giocatorewebapp.model.Giocatore*
+%0webapp.dao.DAOGiocatore*
 
-	idSquadrajava.lang.Long29compraGiocatore(Lwebapp/model/Giocatore;Ljava/lang/Long;)*
-6*Õ
-9j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaB" B(+”–
+	giocatorijava.util.List2orderTeamView(Ljava/util/List;)Æ
+´
 j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaB" B(7	
-%1int"#webapp.model.Giocatore#getPrezzo()I*%
-#
-	giocatorewebapp.model.Giocatore2getPrezzo()*
-4
-7*
-10j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaB B(¯ı
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java< <(H
+giocatoriViewjava.util.List"__id*
+
+%1java.util.List"è
 j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaB B(
-%0java.lang.Integer"7webapp.model.Allenatore#getCrediti()Ljava/lang/Integer;*'
-%
-
-allenatorewebapp.model.Allenatore2getCrediti()*
-9*Ö
-1j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaL	 L("ì
-j
-`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.javaL L(%
-#
-	giocatorewebapp.model.Giocatore:#
-	giocatorewebapp.model.Giocatore:
-	idSquadrajava.lang.Long:%
-
-allenatorewebapp.model.AllenatoreB&$
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java= =(!
+
+giocatoriViewjava.util.List:
+	giocatorijava.util.ListB&$
 "webapp.control.GiocatoreController

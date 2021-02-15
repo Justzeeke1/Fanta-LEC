@@ -1,88 +1,48 @@
 
-4webapp.model.Allenatore#toString()Ljava/lang/String;_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javab b("1*³
-1_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(¥
-¢
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac  c("
-%0java.lang.Long"__id*#*!
-webapp.model.Allenatore"
-id¶
-³
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c("
-%1java.lang.String"__concat*
-Allenatore: [ID = *
-
-%0java.lang.Longµ
-²
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(6
-%2java.lang.String"__concat*
-
-%1java.lang.String*
- -- Username = ­
-ª
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac9 c(A
-%3java.lang.String"__id*)*'
-webapp.model.Allenatore"
+Vwebapp.control.AllenatoreController#getInstance()Lwebapp/control/AllenatoreController;k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java' (2"3*è
+2k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (1À½
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (/)
+%1#webapp.control.AllenatoreController"#webapp.control.AllenatoreControllerÒ
+Ï
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (1
+%2"-webapp.control.AllenatoreController#<init>()V*+
+)
+%1#webapp.control.AllenatoreControllerØ
+Õ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (13%
+#webapp.control.AllenatoreController"
 
-usernameº
-·
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(A
-%4java.lang.String"__concat*
-
-%2java.lang.String*
-
-%3java.lang.Stringµ
-²
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(U
-%5java.lang.String"__concat*
-
-%4java.lang.String*
- -- Password = ­
-ª
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javacX c(`
-%6java.lang.String"__id*)*'
-webapp.model.Allenatore"
+INSTANCE"__id*+
+)
+%1#webapp.control.AllenatoreController*
+1*Ó
+3k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (Ø
+Õ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java ()
+%0#webapp.control.AllenatoreController"__id*5*3%
+#webapp.control.AllenatoreController"
 
-passwordº
-·
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(`
-%7java.lang.String"__concat*
-
-%5java.lang.String*
-
-%6java.lang.String´
-±
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(s
-%8java.lang.String"__concat*
-
-%7java.lang.String*
- -- Crediti = ­
-ª
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javacv c(}
-%9java.lang.Integer"__id*(*&
-webapp.model.Allenatore"	
-crediti¼
-¹
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac	 c(}
-%10java.lang.String"__concat*
-
-%8java.lang.String*
-
-%9java.lang.Integer"|
-_
-UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.javac c(~
-
-%10java.lang.StringB
-webapp.model.Allenatore
+INSTANCE*
+2
+1*è
+1k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (Ø
+Õ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java ()
+%3#webapp.control.AllenatoreController"__id*5*3%
+#webapp.control.AllenatoreController"
+
+INSTANCE"š
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (+
+)
+%3#webapp.control.AllenatoreControllerB'"%
+#webapp.control.AllenatoreController

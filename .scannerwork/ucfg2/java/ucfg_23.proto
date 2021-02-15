@@ -1,16 +1,16 @@
 
-,webapp.model.Squadra#getId()Ljava/lang/Long;\
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java ("1*˚
+0webapp.model.Squadra#getNome()Ljava/lang/String;\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java! !("1*Å
 1\
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java	 (ü
-ú
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java"	 "(£
+†
 \
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java	 (
-%0java.lang.Long"__id* *
-webapp.model.Squadra"
-id"v
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java"	 "(
+%0java.lang.String"__id*"* 
+webapp.model.Squadra"
+nome"x
 \
-RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java (
-
-%0java.lang.LongB
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java" "(
+
+%0java.lang.StringB
 webapp.model.Squadra
