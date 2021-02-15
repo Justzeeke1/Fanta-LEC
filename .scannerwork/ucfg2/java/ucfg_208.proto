@@ -1,0 +1,68 @@
+
+Wwebapp.control.SquadraController#areSquadreCreated(Ljava/lang/Long;)Ljava/lang/Boolean;h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaW W(!"7*«
+2h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java[ [(J¶
+³
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java[ [(J&
+areSquadreCreatedjava.lang.Boolean"__id*
+
+%3java.lang.Boolean*
+1*Þ
+5h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaZ Z(@¦
+£
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaZ Z(@
+squadrejava.util.List"__id*
+
+%1java.util.ListÆ
+Ã
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java[ [(!
+%2webapp.dao.DAOSquadra"__id*4*2"
+ webapp.control.SquadraController"
+
+daoSquadra÷ô
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java[ [(J
+%3java.lang.Boolean"\webapp.dao.DAOSquadra#areSquadreCreated(Ljava/util/List;Ljava/lang/Long;)Ljava/lang/Boolean;*
+
+%2webapp.dao.DAOSquadra*
+
+squadrejava.util.List* 
+
+idMiaSquadrajava.lang.Long23areSquadreCreated(Ljava/util/List;Ljava/lang/Long;)*
+2*¼
+6h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaZ Z(%Æ
+Ã
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaZ Z(%
+%0webapp.dao.DAOSquadra"__id*4*2"
+ webapp.control.SquadraController"
+
+daoSquadraþû
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaZ Z(?
+%1java.util.List"?webapp.dao.DAOSquadra#findAllOrderByPunteggio()Ljava/util/List;*
+
+%0webapp.dao.DAOSquadra2findAllOrderByPunteggio()*
+5*˜
+7h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaX X("£
+ 
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.javaX X(#&
+areSquadreCreatedjava.lang.Boolean"__id*
+""*
+6*„
+1h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java_	 _("”
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java_ _((
+&
+areSquadreCreatedjava.lang.Boolean:
+idMiaSquadrajava.lang.LongB$"
+ webapp.control.SquadraController

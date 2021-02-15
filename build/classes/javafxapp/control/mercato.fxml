@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapp.control.MercatoControllerFx">
    <children>
-      <ImageView fitHeight="720.0" fitWidth="1281.0">
+      <ImageView fitHeight="738.0" fitWidth="1294.0" layoutY="-4.0">
          <image>
             <Image url="file:/C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/WebContent/lec-2019v2.png" />
          </image>
@@ -47,5 +47,6 @@
          </font>
       </Label>
       <Button fx:id="buttonCreaSquadre" layoutX="553.0" layoutY="94.0" mnemonicParsing="false" onAction="#creaSquadre" prefHeight="25.0" prefWidth="176.0" text="CREA SQUADRE AVVERSARIE" />
+      <Button fx:id="buttonAggiorna" layoutX="47.0" layoutY="24.0" mnemonicParsing="false" onAction="#aggiorna" text="Aggiorna" />
    </children>
 </AnchorPane>

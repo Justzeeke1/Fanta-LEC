@@ -1,0 +1,136 @@
+
+Lwebapp.dao.DAOGiocatore#mapRow(Ljava/sql/ResultSet;)Lwebapp/model/Giocatore;_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java% %("1*Ñ 
+1_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java& &(ÅÂ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java& &( 
+
+%0long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)Ž
+‹
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java& &(!
+idjava.lang.Long"__id*
+
+
+%0longæã
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java' '(*
+%1java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)¢
+Ÿ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java' '(+
+nicknamejava.lang.String"__id*
+
+%1java.lang.Stringæã
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java( (('
+%2java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)Ÿ
+œ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java( (((
+ruolojava.lang.String"__id*
+
+%2java.lang.StringÂ¿
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java) )(#	
+%3int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)Â¿
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java* *("	
+%4int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)æã
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java+ +(*
+%5java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)¢
+Ÿ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java+ +(+
+linkFotojava.lang.String"__id*
+
+%5java.lang.StringÎË
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java, ,(+
+%6boolean"!java.sql.ResultSet#getBoolean(I)Z*!
+
+	resultSetjava.sql.ResultSet*22getBoolean(I)™
+–
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java, ,(,
+riservajava.lang.Boolean"__id*
+
+%6booleanÅÂ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java- -('
+
+%7long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)•
+’
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java- -((
+	idSquadrajava.lang.Long"__id*
+
+
+%7long´
+±
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java. .(
+%8webapp.dao.DAOSquadra"__id*+*)
+webapp.dao.DAOGiocatore"
+
+daoSquadra¢Ÿ
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java. .(2
+%9webapp.model.Squadra"Fwebapp.dao.DAOSquadra#findById(Ljava/lang/Long;)Lwebapp/model/Squadra;*
+
+%8webapp.dao.DAOSquadra*
+
+	idSquadrajava.lang.Long2findById(Ljava/lang/Long;)©
+¦
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java. .(3
+squadrawebapp.model.Squadra"__id*
+
+%9webapp.model.Squadra›˜
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java/ /(
+%10webapp.model.Giocatore"webapp.model.Giocatoreè
+å
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java/	 /(X
+%11"‘webapp.model.Giocatore#<init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Lwebapp/model/Squadra;)V*
+
+%10webapp.model.Giocatore*
+
+idjava.lang.Long*
+
+nicknamejava.lang.String*
+
+ruolojava.lang.String*
+""*
+""*
+
+linkFotojava.lang.String*
+
+riservajava.lang.Boolean*!
+
+squadrawebapp.model.Squadra"‚
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiocatore.java/ /(Y
+
+%10webapp.model.Giocatore:
+	resultSetjava.sql.ResultSetB
+webapp.dao.DAOGiocatore

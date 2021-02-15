@@ -3,7 +3,7 @@
 <jsp:forward page="index.jsp"></jsp:forward>
 <% } %>
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="it" class="h-100">
    <head>
       <meta charset="utf-8">
       <%@ page import="webapp.model.Allenatore" %>

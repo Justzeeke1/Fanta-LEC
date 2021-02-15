@@ -190,7 +190,7 @@ public class DAOSquadra {
 
 	public Boolean areSquadreCreated(List<Squadra> squadre, Long idMiaSquadra) throws Exception {
 		for (Squadra squadra : squadre) {
-			if (squadra.getId() != idMiaSquadra) {
+			if (!squadra.getId().equals(idMiaSquadra)) {
 				List<Giocatore> giocatori = daoGiocatore.findAllMyTeam(squadra.getId());
 				if (!giocatori.isEmpty()) {
 					return true;
@@ -207,13 +207,13 @@ public class DAOSquadra {
 		List<Giocatore> giocatori = daoGiocatore.findAllMercatoOrderByOverall();
 		for (Squadra squadra : squadre) {
 			for (String ruolo : ruoli) {
-				if (squadra.getId() != idMiaSquadra) {
+				if (!squadra.getId().equals(idMiaSquadra)) {
 					Giocatore giocatore = findGiocatore(giocatori, ruolo);
 					String query = "UPDATE giocatore SET id_squadra = ? WHERE id = ?";
 					try (Connection connection = instance.getConnection();
 							PreparedStatement statement = connection.prepareStatement(query);) {
-						System.out.println("Squadra :" + squadra.getId());
-						System.out.println("Giocatore :" + giocatore.getId());
+						System.out.println("Squadra: " + squadra.getId());
+						System.out.println("Giocatore: " + giocatore.getId());
 						statement.setLong(1, squadra.getId());
 						statement.setLong(2, giocatore.getId());
 						statement.executeUpdate();
@@ -230,7 +230,7 @@ public class DAOSquadra {
 				return giocatore;
 			}
 		}
-		return null;
+		return new Giocatore();
 	}
 
 	public List<Squadra> findAll() throws Exception {

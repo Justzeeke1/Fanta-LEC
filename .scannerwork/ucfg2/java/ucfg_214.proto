@@ -1,0 +1,59 @@
+
+Torg.apache.jsp.home_jsp#_jsp_getInstanceManager()Lorg/apache/tomcat/InstanceManager;l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaU+ U(B"5*ß
+2l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaY! Y($Œ‰
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaYe Y(w!
+%2javax.servlet.ServletConfig"Ejavax.servlet.Servlet#getServletConfig()Ljavax/servlet/ServletConfig;*
+org.apache.jsp.home_jsp2getServletConfig()ý
+ú
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaY! Y(x'
+%3!org.apache.tomcat.InstanceManager"…org.apache.jasper.runtime.InstanceManagerFactory#getInstanceManager(Ljavax/servlet/ServletConfig;)Lorg/apache/tomcat/InstanceManager;*4"2
+0org.apache.jasper.runtime.InstanceManagerFactory*#
+!
+%2javax.servlet.ServletConfig×
+Ô
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaY
+ Y(x3
+org.apache.jsp.home_jsp"
+_jsp_instancemanager"__id*)
+'
+%3!org.apache.tomcat.InstanceManager*
+1*Ó
+3l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaX X( ×
+Ô
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaX X( '
+%1!org.apache.tomcat.InstanceManager"__id*5*3
+org.apache.jsp.home_jsp"
+_jsp_instancemanager*
+2
+1*Ó
+5l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaV V(×
+Ô
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.javaV V('
+%0!org.apache.tomcat.InstanceManager"__id*5*3
+org.apache.jsp.home_jsp"
+_jsp_instancemanager*
+3
+1*ç
+1l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java] ](×
+Ô
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java] ]('
+%4!org.apache.tomcat.InstanceManager"__id*5*3
+org.apache.jsp.home_jsp"
+_jsp_instancemanager"™
+l
+bC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\home_jsp.java] ]( )
+'
+%4!org.apache.tomcat.InstanceManager:
+%jsp_contextB
+org.apache.jsp.home_jsp

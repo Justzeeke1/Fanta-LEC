@@ -1,0 +1,62 @@
+
+Xwebapp.control.GiocatoreController#findAllMyTeam(Lwebapp/model/Squadra;)Ljava/util/List;j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java1 1(%"7*¡
+2j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(:ª
+§
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(:
+	giocatorijava.util.List"__id*
+
+%4java.util.List*
+1*Ÿ
+5j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(:¨¥
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(:
+%4java.util.List"Gwebapp.dao.DAOGiocatore#findAllMyTeam(Ljava/lang/Long;)Ljava/util/List;*
+
+%2webapp.dao.DAOGiocatore*
+
+%3java.lang.Long2findAllMyTeam(Ljava/lang/Long;)*
+2*§
+6j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(Î
+Ë
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4 4(
+%2webapp.dao.DAOGiocatore"__id*8*6$
+"webapp.control.GiocatoreController"
+daoGiocatoreßÜ
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java4* 4(9
+%3java.lang.Long",webapp.model.Squadra#getId()Ljava/lang/Long;*!
+
+squadrawebapp.model.Squadra2getId()*
+5*ü
+7j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java2 2(8Ÿœ
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java2" 2(6
+%0java.util.ArrayList"java.util.ArrayList±
+®
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java2 2(8
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList¯
+¬
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java2 2(9
+	giocatorijava.util.List"__id*
+
+%0java.util.ArrayList*
+6*ý
+1j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java8	 8("‹
+j
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiocatoreController.java8 8(
+
+	giocatorijava.util.List:
+squadrawebapp.model.SquadraB&$
+"webapp.control.GiocatoreController

@@ -1,0 +1,59 @@
+
+Worg.apache.jsp.mercato_jsp#_jsp_getInstanceManager()Lorg/apache/tomcat/InstanceManager;o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaS+ S(B"5*Ò
+2o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaW! W($íè
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaWe W(w!
+%2javax.servlet.ServletConfig"Ejavax.servlet.Servlet#getServletConfig()Ljavax/servlet/ServletConfig;*
+org.apache.jsp.mercato_jsp2getServletConfig()Ä
+˝
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaW! W(x'
+%3!org.apache.tomcat.InstanceManager"Öorg.apache.jasper.runtime.InstanceManagerFactory#getInstanceManager(Ljavax/servlet/ServletConfig;)Lorg/apache/tomcat/InstanceManager;*4"2
+0org.apache.jasper.runtime.InstanceManagerFactory*#
+!
+%2javax.servlet.ServletConfig›
+⁄
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaW
+ W(x6
+org.apache.jsp.mercato_jsp"
+_jsp_instancemanager"__id*)
+'
+%3!org.apache.tomcat.InstanceManager*
+1*‹
+3o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaV V( ›
+⁄
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaV V( '
+%1!org.apache.tomcat.InstanceManager"__id*8*6
+org.apache.jsp.mercato_jsp"
+_jsp_instancemanager*
+2
+1*‹
+5o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaT T(›
+⁄
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.javaT T('
+%0!org.apache.tomcat.InstanceManager"__id*8*6
+org.apache.jsp.mercato_jsp"
+_jsp_instancemanager*
+3
+1*Û
+1o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java[ [(›
+⁄
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java[ [('
+%4!org.apache.tomcat.InstanceManager"__id*8*6
+org.apache.jsp.mercato_jsp"
+_jsp_instancemanager"ú
+o
+eC:\Users\justz\eclipse-workspace-serv\Progetto_Marco\.scannerwork\jsp\org\apache\jsp\mercato_jsp.java[ [( )
+'
+%4!org.apache.tomcat.InstanceManager:
+%jsp_contextB
+org.apache.jsp.mercato_jsp

@@ -1,0 +1,74 @@
+
+9javafxapp.model.TableSquadra#toString()Ljava/lang/String;d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaH H("1*ü
+1d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(!¶
+³
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI$ I(+
+%0java.lang.String"__id*-*+
+javafxapp.model.TableSquadra"	
+overallÁ
+¾
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(+
+%1java.lang.String"__concat*
+TableSquadra [overall=*
+
+%0java.lang.String¶
+³
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(;
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, nickname=·
+´
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI> I(F
+%3java.lang.String"__id*.*,
+javafxapp.model.TableSquadra"
+
+nickname¿
+¼
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(F
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String³
+°
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(S
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, ruolo=´
+±
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaIV I([
+%6java.lang.String"__id*+*)
+javafxapp.model.TableSquadra"
+ruolo¿
+¼
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I([
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String¬
+©
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI	 I(a
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+]"€
+d
+ZC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/model/TableSquadra.javaI I(b
+
+%8java.lang.StringB 
+javafxapp.model.TableSquadra

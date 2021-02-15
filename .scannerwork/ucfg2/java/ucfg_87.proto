@@ -1,0 +1,52 @@
+
+1webapp.model.Scontro#toString()Ljava/lang/String;\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java" "("1*ù
+
+1\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#	 #(!Ø
+¨
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#$ #(0
+%0webapp.model.Squadra"__id***(
+webapp.model.Scontro"
+primaSquadraΩ
+∫
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#	 #(0
+%1java.lang.String"__concat*
+Scontro [primaSquadra=*
+
+%0webapp.model.Squadra¥
+±
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#	 #(F
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, secondaSquadra=±
+Æ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#I #(W
+%3webapp.model.Squadra"__id*,**
+webapp.model.Scontro"
+secondaSquadraª
+∏
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#	 #(W
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3webapp.model.Squadra§
+°
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java#	 #(]
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+]"x
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Scontro.java# #(^
+
+%5java.lang.StringB
+webapp.model.Scontro

@@ -10,10 +10,13 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafxapp.model.TableSquadra;
 import webapp.control.AllenatoreController;
@@ -25,6 +28,15 @@ import webapp.model.Giocatore;
 import webapp.model.Squadra;
 
 public class MyTeamControllerFx implements Initializable {
+
+	private static MyTeamControllerFx INSTANCE = null;
+
+	public static MyTeamControllerFx getInstance() {
+		if (INSTANCE == null) {
+			INSTANCE = new MyTeamControllerFx();
+		}
+		return INSTANCE;
+	}
 
 	LoginControllerFx loginControllerFx = LoginControllerFx.getInstance();
 	AllenatoreController allenatoreController = AllenatoreController.getInstance();
@@ -42,6 +54,8 @@ public class MyTeamControllerFx implements Initializable {
 	@FXML
 	Label labelErroreRiserve;
 	@FXML
+	Label labelModificaSquadraT;
+	@FXML
 	Label labelModificaSquadra;
 	@FXML
 	Label labelRiserve;
@@ -49,6 +63,8 @@ public class MyTeamControllerFx implements Initializable {
 	Label labelTitolari;
 	@FXML
 	TableView<TableSquadra> tableViewSquadra;
+	@FXML
+	private TableColumn<TableSquadra, String> columnId;
 	@FXML
 	private TableColumn<TableSquadra, String> columnOverall;
 	@FXML
@@ -58,14 +74,22 @@ public class MyTeamControllerFx implements Initializable {
 	@FXML
 	TableView<TableSquadra> tableViewRiserva;
 	@FXML
+	private TableColumn<TableSquadra, String> columnIdR;
+	@FXML
 	private TableColumn<TableSquadra, String> columnOverallR;
 	@FXML
 	private TableColumn<TableSquadra, String> columnNicknameR;
 	@FXML
 	private TableColumn<TableSquadra, String> columnRuoloR;
+	@FXML
+	Button buttonAggiorna;
+	public static URL url;
+	public static ResourceBundle resBundle;
 
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
+	public void initialize(URL location, ResourceBundle rs) {
+		url = location;
+		resBundle = rs;
 		allenatore = Main.getAllenatore();
 		squadra = Main.getSquadra();
 		List<Giocatore> giocatoriTotali = new ArrayList<Giocatore>();
@@ -79,6 +103,11 @@ public class MyTeamControllerFx implements Initializable {
 		initErrors(giocatoriTitolari, giocatoriRiserva);
 	}
 
+	@FXML
+	public void aggiorna() {
+		initialize(url, resBundle);
+	}
+
 	private void initErrors(List<Giocatore> giocatoriTitolari, List<Giocatore> giocatoriRiserva) {
 		if (giocatoriTitolari.isEmpty()) {
 			labelErrore.setText(
@@ -88,7 +117,7 @@ public class MyTeamControllerFx implements Initializable {
 			setVisibility(true);
 		}
 		if (giocatoriRiserva.isEmpty()) {
-			labelErroreRiserve.setText("NON HAI RISERVE!");
+			labelErroreRiserve.setVisible(true);
 			setVisibilityRiserva(false);
 		} else {
 			setVisibilityRiserva(true);
@@ -123,9 +152,11 @@ public class MyTeamControllerFx implements Initializable {
 	private void setTables(List<Giocatore> giocatoriTitolari, List<Giocatore> giocatoriRiserva) {
 		List<TableSquadra> tableSquadra = mapSquadra(giocatoriTitolari);
 		List<TableSquadra> tableRiserva = mapSquadra(giocatoriRiserva);
+		columnId.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("id"));
 		columnOverall.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("overall"));
 		columnNickname.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("nickname"));
 		columnRuolo.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("ruolo"));
+		columnIdR.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("id"));
 		columnOverallR.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("overall"));
 		columnNicknameR.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("nickname"));
 		columnRuoloR.setCellValueFactory(new PropertyValueFactory<TableSquadra, String>("ruolo"));
@@ -138,6 +169,7 @@ public class MyTeamControllerFx implements Initializable {
 	private void setVisibility(Boolean isVisible) {
 		labelErroreRiserve.setVisible(isVisible);
 		labelModificaSquadra.setVisible(isVisible);
+		labelModificaSquadraT.setVisible(isVisible);
 		labelRiserve.setVisible(isVisible);
 		tableViewSquadra.setVisible(isVisible);
 		tableViewRiserva.setVisible(isVisible);
@@ -148,10 +180,39 @@ public class MyTeamControllerFx implements Initializable {
 	private List<TableSquadra> mapSquadra(List<Giocatore> giocatori) {
 		List<TableSquadra> tableSquadra = new ArrayList<TableSquadra>();
 		for (Giocatore giocatore : giocatori) {
-			tableSquadra
-					.add(new TableSquadra(giocatore.getOverall() + "", giocatore.getNickname(), giocatore.getRuolo()));
+			tableSquadra.add(new TableSquadra(giocatore.getId() + "", giocatore.getOverall() + "",
+					giocatore.getNickname(), giocatore.getRuolo(), giocatore.getPrezzo() + ""));
 		}
 		return tableSquadra;
+	}
+
+	@FXML
+	public void clickItemVendi1(KeyEvent event) {
+		String idGiocatoreString = tableViewSquadra.getSelectionModel().getSelectedItem().getId();
+		Long idGiocatore = Long.parseLong(idGiocatoreString);
+		Giocatore giocatore = giocatoreController.findById(idGiocatore);
+		giocatoreController.vendiGiocatore(giocatore, squadra.getId(), allenatore);
+		initialize(url, resBundle);
+	}
+	
+	@FXML
+	public void clickItemVendi2(KeyEvent event) {
+		String idGiocatoreString = tableViewRiserva.getSelectionModel().getSelectedItem().getId();
+		Long idGiocatore = Long.parseLong(idGiocatoreString);
+		Giocatore giocatore = giocatoreController.findById(idGiocatore);
+		giocatoreController.vendiGiocatore(giocatore, squadra.getId(), allenatore);
+		initialize(url, resBundle);
+	}
+
+	@FXML
+	public void clickItem2(MouseEvent event) {
+		String idGiocatoreString = tableViewRiserva.getSelectionModel().getSelectedItem().getId();
+		Long idGiocatore = Long.parseLong(idGiocatoreString);
+		Giocatore giocatore = giocatoreController.findById(idGiocatore);
+		if (event.getClickCount() == 2) {
+			giocatoreController.cambia(giocatore);
+		}
+		initialize(url, resBundle);
 	}
 
 }

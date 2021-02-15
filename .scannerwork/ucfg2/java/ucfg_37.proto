@@ -1,0 +1,115 @@
+
+1webapp.model.Squadra#toString()Ljava/lang/String;\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaz z("1*Ÿ
+1\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(Ÿ
+œ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{ {(
+%0java.lang.Long"__id* *
+webapp.model.Squadra"
+id­
+ª
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(
+%1java.lang.String"__concat*
+Squadra [id=*
+
+%0java.lang.Longª
+§
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {((
+%2java.lang.String"__concat*
+
+%1java.lang.String*	
+, nome=£
+ 
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{+ {(/
+%3java.lang.String"__id*"* 
+webapp.model.Squadra"
+nome·
+´
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(/
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String®
+«
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(?
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, vittorie=¥
+¢
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(J
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""¯
+¬
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {([
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+, sconfitte=¥
+¢
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 {(g
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+""¯
+¬
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 |(
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+, punteggio=¦
+£
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 |( 
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+""²
+¯
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 |(2
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+, allenatore=±
+®
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java|5 |(?
+%12webapp.model.Allenatore"__id*(*&
+webapp.model.Squadra"
+
+allenatoreÁ
+¾
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 |(?
+%13java.lang.String"__concat*
+
+%11java.lang.String* 
+
+%12webapp.model.Allenatore¦
+£
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{	 |(E
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+]"y
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java{ |(F
+
+%14java.lang.StringB
+webapp.model.Squadra

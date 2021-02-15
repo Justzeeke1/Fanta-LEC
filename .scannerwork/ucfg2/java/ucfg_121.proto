@@ -1,0 +1,128 @@
+
+owebapp.dao.DAOAllenatore#modificaCrediti(Lwebapp/model/Allenatore;Ljava/lang/Integer;)Lwebapp/model/Allenatore;`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java& &(""9*Æ
+2`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java. .(ÙÖ
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java. .(	
+%9int"+java.sql.PreparedStatement#executeUpdate()I*)
+'
+	statementjava.sql.PreparedStatement2executeUpdate()*
+1*Ý
+3`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java- -(+ðí
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java- -(+
+
+%8void"'java.sql.PreparedStatement#setLong(IJ)V*)
+'
+	statementjava.sql.PreparedStatement*2*
+
+%7java.lang.Long2setLong(IJ)*
+2*Ë
+4`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java- -(ÞÛ
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java- -(*
+%7java.lang.Long"/webapp.model.Allenatore#getId()Ljava/lang/Long;*'
+%
+
+allenatorewebapp.model.Allenatore2getId()*
+3*Þ
+5`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java, ,(/ñî
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java, ,(/
+
+%6void"&java.sql.PreparedStatement#setInt(II)V*)
+'
+	statementjava.sql.PreparedStatement*2*
+
+%5java.lang.Integer2
+setInt(II)*
+4*–
+6`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java+ +(D¸
+µ
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java+ +(D'
+	statementjava.sql.PreparedStatement"__id*"
+ 
+%4java.sql.PreparedStatementîë
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java, ,(.
+%5java.lang.Integer"7webapp.model.Allenatore#getCrediti()Ljava/lang/Integer;*'
+%
+
+allenatorewebapp.model.Allenatore2getCrediti()*
+5*à
+7`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java* *(7«
+¨
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java* *(7!
+
+connectionjava.sql.Connection"__id*
+
+%3java.sql.ConnectionÅÂ
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java+" +(D 
+%4java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*#
+!
+
+connectionjava.sql.Connection*
+
+queryjava.lang.String2$prepareStatement(Ljava/lang/String;)*
+6*ã
+8`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java* *('öó
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java* *(7
+%3java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
+#
+instancewebapp.model.DataSource2getConnection()*
+7*°	
+9`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java' '("á
+Þ
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java' '(0
+%0webapp.model.DataSource">webapp.model.DataSource#getInstance()Lwebapp/model/DataSource;*"
+webapp.model.DataSource±
+®
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java' '(1#
+instancewebapp.model.DataSource"__id*
+
+%0webapp.model.DataSourceîë
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java( ((/
+%1java.lang.Integer"7webapp.model.Allenatore#getCrediti()Ljava/lang/Integer;*'
+%
+
+allenatorewebapp.model.Allenatore2getCrediti()ýú
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java( ((:
+
+%2void"8webapp.model.Allenatore#setCrediti(Ljava/lang/Integer;)V*'
+%
+
+allenatorewebapp.model.Allenatore*
+""2setCrediti(Ljava/lang/Integer;)º
+·
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java) )(B
+queryjava.lang.String"__id*20
+.UPDATE allenatore SET crediti = ? WHERE id = ?*
+8*ó
+1`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java0	 0("‹
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java0 0('
+%
+
+allenatorewebapp.model.Allenatore:%
+
+allenatorewebapp.model.Allenatore:
+creditijava.lang.IntegerB
+webapp.dao.DAOAllenatore

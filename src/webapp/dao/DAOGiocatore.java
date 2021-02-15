@@ -176,13 +176,28 @@ public class DAOGiocatore {
 		}
 		return giocatoriView;
 	}
-	public Giocatore vendiGiocatore(Giocatore giocatore, Long idSquadra) throws Exception {
+	public Giocatore vendiGiocatore(Giocatore giocatore) throws Exception {
 		DataSource instance = DataSource.getInstance();
-		String query = "UPDATE `progetto_ispw`.`giocatore` SET `id_squadra` = null, `riserva` = 0 WHERE (`id` = ?)";
+		String query = "UPDATE giocatore SET id_squadra = ?, riserva = 0 WHERE id = ?";
 		try (Connection connection = instance.getConnection();
 				PreparedStatement statement = connection.prepareStatement(query);) {
-			statement.setLong(1, giocatore.getId());
+			statement.setString(1, null);
+			statement.setLong(2, giocatore.getId());
 			statement.executeUpdate();
+			String ruolo = giocatore.getRuolo();
+			List<Giocatore> giocatori = findAllMyTeam(giocatore.getSquadra().getId());
+			giocatore = null;
+			for (Giocatore g : giocatori) {
+				if (g.getRuolo().equals(ruolo) && g.getRiserva()) {
+					giocatore = g;
+					break;
+				}
+			}
+			if (giocatore != null) {
+				statement.setLong(1, giocatore.getSquadra().getId());
+				statement.setLong(2, giocatore.getId());
+				statement.executeUpdate();
+			}
 		}
 		return giocatore;
 	}

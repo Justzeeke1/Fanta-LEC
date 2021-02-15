@@ -14,7 +14,7 @@ public class Main extends Application {
 	private static Squadra squadra;
 	private static Parent root;
 	private static Stage stage;
-
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -63,5 +63,6 @@ public class Main extends Application {
 		Main.allenatore = null;
 		Main.squadra = null;
 	}
+
 
 }

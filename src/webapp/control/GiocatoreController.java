@@ -96,9 +96,8 @@ public class GiocatoreController {
 	
 	public Giocatore vendiGiocatore(Giocatore giocatore, Long idSquadra, Allenatore allenatore) {
 		try {
-				giocatore = daoGiocatore.vendiGiocatore(giocatore, idSquadra);
-				Integer crediti = 0 + giocatore.getPrezzo();
-				daoAllenatore.modificaCrediti(allenatore, crediti);
+				giocatore = daoGiocatore.vendiGiocatore(giocatore);
+				daoAllenatore.modificaCrediti(allenatore, giocatore.getPrezzo());
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

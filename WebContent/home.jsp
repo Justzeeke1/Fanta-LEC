@@ -13,7 +13,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
-<html>
+<html lang="it">
    <head>
       <meta charset="UTF-8">
       <title>Fanta LEC</title>
@@ -64,7 +64,7 @@
          <div class="row">
             <div class="col-md-5">
                <h5 class="site-header" style="margin-top:15%">La tua squadra:</h5>
-               <table class="table table-primary table-striped table-sm">
+               <table aria-label="" class="table table-primary table-striped table-sm">
                   <tbody>
                      <% for (Giocatore giocatore : giocatoriTitolari) { %>
                      <tr>
@@ -90,7 +90,7 @@
                giocatoriTitolariAvversario = giocatoreController.orderTeamView(giocatoriTitolariAvversario);%>
             <div class="col-md-5">
                <h5 style="margin-top:15%; background:#00e4be">Squadra avversaria:</h5>
-               <table class="table table-danger table-striped table-sm" >
+               <table aria-label="" class="table table-danger table-striped table-sm" >
                   <tbody>
                      <% for (Giocatore giocatore : giocatoriTitolariAvversario) { %>
                      <tr>
@@ -125,7 +125,7 @@
          </div>
          <div class="row">
             <div class="col-md-4" style="margin-top:8%">
-               <table class="table table-borderless table-info">
+               <table aria-label="" class="table table-borderless table-info">
                   <thead>
                      <tr>
                         <th scope="col"></th>

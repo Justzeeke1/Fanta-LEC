@@ -1,0 +1,267 @@
+
+0webapp.model.Squadra#equals(Ljava/lang/Object;)Z\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaY Y("startingBlock*Ê
+13\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaj
+ j("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaj j(
+""*‹
+24\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java^ ^(ÌÉ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java^ ^(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+webapp.model.Squadra2
+getClass()ÍÊ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java^ ^("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+22
+23*¥
+14\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javai i(Ÿ
+œ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javai i(
+%9java.lang.Long"__id* *
+webapp.model.Squadra"
+id§
+¤
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javai i( 
+%10java.lang.Long"__id*'*%
+
+otherwebapp.model.Squadra"
+idêç
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javai i(!
+%11boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+%9java.lang.Long*
+
+%10java.lang.Long2equals(Ljava/lang/Object;)*
+13
+12*Ê
+25\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java]
+ ]("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java] ](
+""*Ê
+15\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javah h("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javah h(
+""*•
+16\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javag g(¦
+£
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javag g(
+%8java.lang.Long"__id*'*%
+
+otherwebapp.model.Squadra"
+id*
+15
+12*Ê
+27\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java[
+ [("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java[ [(
+""*Ž
+17\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaf f(Ÿ
+œ
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaf f(
+%7java.lang.Long"__id* *
+webapp.model.Squadra"
+id*
+14
+16*Ê
+18\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javae
+ e("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javae e(
+""*ß
+19\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javad d(°
+­
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javad d(
+%4webapp.model.Allenatore"__id*(*&
+webapp.model.Squadra"
+
+allenatore·
+´
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javad  d(0
+%5webapp.model.Allenatore"__id*/*-
+
+otherwebapp.model.Squadra"
+
+allenatoreƒ€
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javad d(1
+%6boolean"3webapp.model.Allenatore#equals(Ljava/lang/Object;)Z*
+
+%4webapp.model.Allenatore*
+
+%5webapp.model.Allenatore2equals(Ljava/lang/Object;)*
+17
+18*É
+1\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javav	 v("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javav v(
+""*É
+2\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javau
+ u("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javau u(
+""*¹
+startingBlock\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaY Y("§
+¤
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaX X(
+
+%17"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object‘
+Ž
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaY Y(!
+objjava.lang.Object"__annotation*
+
+%17*
+24
+25
+27*É
+4\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javas
+ s("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javas s(
+""*É
+6\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaq
+ q("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaq q(
+""*É
+8\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javao
+ o("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javao o(
+""*»
+9\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javan n(¤
+¡
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javan n(
+%14java.lang.String"__id*"* 
+webapp.model.Squadra"
+nome«
+¨
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javan n($
+%15java.lang.String"__id*)*'
+
+otherwebapp.model.Squadra"
+nomeñî
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javan n(%
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%14java.lang.String*
+
+%15java.lang.String2equals(Ljava/lang/Object;)*
+2
+4
+6
+8
+1*Ê
+20\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javac c("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javac c(
+""*¦
+21\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javab b(·
+´
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javab b(
+%3webapp.model.Allenatore"__id*/*-
+
+otherwebapp.model.Squadra"
+
+allenatore*
+17
+20*Ê
+10\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javam m("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javam m(
+""*Ã
+22\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java` `(¡
+ž
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java` `( 
+otherwebapp.model.Squadra"__id*
+
+objjava.lang.Object°
+­
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javaa a(
+%2webapp.model.Allenatore"__id*(*&
+webapp.model.Squadra"
+
+allenatore*
+19
+21*¢
+11\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javal l(«
+¨
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javal l(
+%13java.lang.String"__id*)*'
+
+otherwebapp.model.Squadra"
+nome*
+2
+4
+6
+10
+1*’
+12\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javak k(
+¤
+¡
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.javak k(
+
+%12java.lang.String"__id*"* 
+webapp.model.Squadra"
+nome*
+9
+11*Ê
+23\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java_
+ _("f
+\
+RC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Squadra.java_ _(
+"":
+objjava.lang.ObjectB
+webapp.model.Squadra

@@ -1,0 +1,27 @@
+
+Twebapp.dao.DAOGiornata#mapRowGiornataDaGiocare(Ljava/sql/ResultSet;)Ljava/lang/Long;^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java@ @(%"1*Å
+1^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.javaA A(ÄÁ
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.javaA A((
+
+%0long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)•
+’
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.javaA A()
+
+idGiornatajava.lang.Long"__id*
+
+
+%0long"€
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.javaB B(
+
+
+idGiornatajava.lang.Long:
+	resultSetjava.sql.ResultSetB
+webapp.dao.DAOGiornata

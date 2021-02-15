@@ -1,0 +1,108 @@
+
+@javafxapp.control.HomeControllerFx#initSquadre()Ljava/util/List;l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java» »($"3*¤
+2l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¾ ¾(È
+Å
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¾ ¾(
+%3webapp.model.Squadra"__id*3*1$
+"javafxapp.control.HomeControllerFx"	
+squadraÜÙ
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¾ ¾(&
+%4java.lang.Long",webapp.model.Squadra#getId()Ljava/lang/Long;*
+
+%3webapp.model.Squadra2getId()¯
+¬
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¾ ¾('
+idMiaSquadrajava.lang.Long"__id*
+
+%4java.lang.LongÞ
+Û
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¿ ¿((&
+%5 webapp.control.SquadraController"__id*=*;$
+"javafxapp.control.HomeControllerFx"
+squadraControllerÂ
+¿
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¿> ¿(E
+%6java.util.List"__id*3*1$
+"javafxapp.control.HomeControllerFx"	
+scontri˜•
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¿ ¿(T
+%7webapp.model.Squadra"mwebapp.control.SquadraController#getSquadraAvversaria(Ljava/util/List;Ljava/lang/Long;)Lwebapp/model/Squadra;*(
+&
+%5 webapp.control.SquadraController*
+
+%6java.util.List* 
+
+idMiaSquadrajava.lang.Long26getSquadraAvversaria(Ljava/util/List;Ljava/lang/Long;)Ò
+Ï
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¿ ¿(T;$
+"javafxapp.control.HomeControllerFx"
+squadraAvversaria"__id*
+
+%7webapp.model.Squadraâ
+ß
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÀ À(((
+%8"webapp.control.GiocatoreController"__id*?*=$
+"javafxapp.control.HomeControllerFx"
+giocatoreControllerÈ
+Å
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÀ7 À(>
+%9webapp.model.Squadra"__id*3*1$
+"javafxapp.control.HomeControllerFx"	
+squadraÓÐ
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÀ À(?
+%10java.util.List"Xwebapp.control.GiocatoreController#findAllMyTeam(Lwebapp/model/Squadra;)Ljava/util/List;**
+(
+%8"webapp.control.GiocatoreController*
+
+%9webapp.model.Squadra2%findAllMyTeam(Lwebapp/model/Squadra;)³
+°
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÀ À(?!
+giocatoriTotalijava.util.List"__id*
+
+%10java.util.List*
+1*Ø
+3l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¼$ ¼(>¡ž
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¼( ¼(<
+%0java.util.ArrayList"java.util.ArrayList³
+°
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¼$ ¼(>
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList·
+´
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java¼ ¼(?!
+giocatoriTotalijava.util.List"__id*
+
+%0java.util.ArrayListÈ
+Å
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.java½ ½(
+%2webapp.model.Squadra"__id*3*1$
+"javafxapp.control.HomeControllerFx"	
+squadra*
+2
+1*‡
+1l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÂ	 Â("“
+l
+`C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/javafxapp/control/HomeControllerFx.javaÂ Â(#
+!
+giocatoriTotalijava.util.ListB&$
+"javafxapp.control.HomeControllerFx

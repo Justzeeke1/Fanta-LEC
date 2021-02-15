@@ -12,7 +12,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
-<html class="h-100">
+<html lang="it" class="h-100">
    <head>
       <meta charset="UTF-8">
       <title>Fanta LEC</title>
@@ -64,15 +64,15 @@
             <div class="card mb-4 shadow-sm">
                <div class="card-header">
                   <h4 class="my-0 fw-normal">
-                  		<form action="/Progetto_Marco/vendi" method="POST" style="text-align: right">
-                           <button type="submit" style="text-align: right" class="btn btn-outline-danger" name="giocatore" value="<%=giocatore.getId()%>">X</button>
+                  		<form action="/Progetto_Marco/vendi" method="POST">
+                           <button type="submit" class="btn btn-outline-danger btn-vendi" name="giocatore" value="<%=giocatore.getId()%>">X</button>
                         </form>
                         <%=giocatore.getOverall()%>   <%=giocatore.getNickname()%> </h4>
                </div>
                <div class="card-body">
                   <h1 class="card-title pricing-card-title"><%=giocatore.getRuolo()%></h1>
                   <div class="img-player-container">
-                     <img src="imgPlayers/<%=giocatore.getLinkFoto() %>" class="img-fluid img-player">
+                     <img src="imgPlayers/<%=giocatore.getLinkFoto() %>" alt='' class="img-fluid img-player">
                   </div>
                </div>
             </div>
@@ -90,15 +90,15 @@
             <div class="card mb-4 shadow-sm">
                <div class="card-header">
                   <h4 class="my-0 fw-normal">
-                  		<form action="/Progetto_Marco/vendi" method="POST" style="text-align: right">
-                           <button type="submit" style="text-align: right" class="btn btn-outline-danger" name="giocatore" value="<%=giocatore.getId()%>">X</button>
+                  		<form action="/Progetto_Marco/vendi" method="POST">
+                           <button type="submit" class="btn btn-outline-danger btn-vendi" name="giocatore" value="<%=giocatore.getId()%>">X</button>
                         </form>
                   <%=giocatore.getOverall()%>   <%=giocatore.getNickname()%></h4>
                </div>
                <div class="card-body">
                   <h1 class="card-title pricing-card-title"><%=giocatore.getRuolo()%></h1>
                   <div class="img-player-container">
-                     <img src="imgPlayers/<%=giocatore.getLinkFoto() %>" class="img-fluid img-player" style="margin-bottom:2%">
+                     <img src="imgPlayers/<%=giocatore.getLinkFoto() %>" alt='' class="img-fluid img-player" style="margin-bottom:2%">
                   </div>
                   <form action="/Progetto_Marco/cambia" method="POST">
                      <button type="submit" class="w-100 btn btn-lg btn-outline-primary button-cambia" name="giocatore" value=<%=giocatore.getId()%>>CAMBIA</button>

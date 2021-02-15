@@ -1,0 +1,120 @@
+
+Mwebapp.dao.DAOSquadra#squadraPresente(Ljava/lang/Long;)Lwebapp/model/Squadra;_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java˛ ˛("15*ﬂ
+13_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÇ Ç(7™
+ß
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÇ Ç(7!
+
+connectionjava.sql.Connection"__id*
+
+%1java.sql.Connectionƒ¡
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÉ" É(D 
+%2java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*#
+!
+
+connectionjava.sql.Connection*
+
+queryjava.lang.String2$prepareStatement(Ljava/lang/String;)*
+12*„
+14_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÇ Ç('ıÚ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÇ Ç(7
+%1java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
+#
+instancewebapp.model.DataSource2getConnection()*
+13*“
+15_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaˇ ˇ("‡
+›
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaˇ ˇ(0
+%0webapp.model.DataSource">webapp.model.DataSource#getInstance()Lwebapp/model/DataSource;*"
+webapp.model.DataSource∞
+≠
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaˇ ˇ(1#
+instancewebapp.model.DataSource"__id*
+
+%0webapp.model.DataSourceì
+ê
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÄ Ä(
+squadrawebapp.model.Squadra"__id*
+""∏
+µ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÅ Å(A
+queryjava.lang.String"__id*1/
+-SELECT * FROM squadra WHERE id_allenatore = ?*
+14*ï
+7_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaá á(©
+¶
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaá á(
+squadrawebapp.model.Squadra"__id*
+
+%6webapp.model.Squadra*
+1*Ù
+8_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaá á(à
+Ö
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaá á(
+%6webapp.model.Squadra"Hwebapp.dao.DAOSquadra#mapRow(Ljava/sql/ResultSet;)Lwebapp/model/Squadra;*
+webapp.dao.DAOSquadra*!
+
+	resultSetjava.sql.ResultSet*
+7*‘
+10_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÖ Ö(2ß
+§
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÖ Ö(2
+	resultSetjava.sql.ResultSet"__id*
+
+%4java.sql.ResultSet∫∑
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÜ Ü(
+%5boolean"java.sql.ResultSet#next()Z*!
+
+	resultSetjava.sql.ResultSet2next()*
+8
+1*Ê
+11_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÖ Ö("¯ı
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÖ Ö(1
+%4java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*)
+'
+	statementjava.sql.PreparedStatement2executeQuery()*
+10*ó
+12_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÉ É(D∑
+¥
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÉ É(D'
+	statementjava.sql.PreparedStatement"__id*"
+ 
+%2java.sql.PreparedStatementÔÏ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÑ Ñ(
+
+%3void"'java.sql.PreparedStatement#setLong(IJ)V*)
+'
+	statementjava.sql.PreparedStatement*2*
+
+idjava.lang.Long2setLong(IJ)*
+11*Î
+1_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaç	 ç("Ñ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaç ç(!
+
+squadrawebapp.model.Squadra:
+idjava.lang.LongB
+webapp.dao.DAOSquadra

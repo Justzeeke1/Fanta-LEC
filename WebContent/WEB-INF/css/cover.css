@@ -26,7 +26,7 @@
 	font-size: 1.50rem;
 	font-weight: 500;
 	position: absolute;
-    top: 41%;
+    top: 42%;
     right: 27%;
 }
 
@@ -34,8 +34,18 @@
 	font-size: 1.50rem;
 	font-weight: 500;
 	position: absolute;
-    top: 41%;
+    top: 42%;
     right: 33%;
+}
+
+.btn-vendi {
+	text-align: center !important;
+    display: flex !important;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+    left: 89%;
+    position: relative;
 }
 
 body {

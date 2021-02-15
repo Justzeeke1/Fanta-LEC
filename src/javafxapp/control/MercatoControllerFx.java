@@ -1,6 +1,5 @@
 package javafxapp.control;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +8,7 @@ import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -27,7 +27,7 @@ import webapp.model.Allenatore;
 import webapp.model.Giocatore;
 import webapp.model.Squadra;
 
-public class MercatoControllerFx {
+public class MercatoControllerFx implements Initializable {
 	
 	private static MercatoControllerFx INSTANCE = null;
 	
@@ -38,6 +38,7 @@ public class MercatoControllerFx {
 		return INSTANCE;
 	}
 
+	MainControllerFx mainControllerFx = MainControllerFx.getInstance();
 	LoginControllerFx loginControllerFx = LoginControllerFx.getInstance();
 	AllenatoreController allenatoreController = AllenatoreController.getInstance();
 	SquadraController squadraController = SquadraController.getInstance();
@@ -75,19 +76,14 @@ public class MercatoControllerFx {
 	@FXML
 	private TableColumn<TableSquadra, String> columnPrezzo;
 	@FXML
-    private URL location;
-    @FXML
-    private ResourceBundle resources;
-	
+	Button buttonAggiorna;
+	public static URL url;
+	public static ResourceBundle resBundle;
 
-	
-	public void initialize() {
-		try {
-			location = new URL("file:/C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/build/classes/javafxapp/control/mercato.fxml");
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    @Override
+	public void initialize(URL location, ResourceBundle rs) {
+    	url = location;
+    	resBundle = rs;
 		allenatore = Main.getAllenatore();
 		squadra = Main.getSquadra();
 		labelCreaSquadra.setText("CREA LA TUA SQUADRA!\nClicca due volte sul giocatore per acquistarlo");
@@ -106,6 +102,11 @@ public class MercatoControllerFx {
 		setTable();
 		checkSquadra();
 	}
+    
+    @FXML
+    public void aggiorna() {
+    	initialize(url, resBundle);
+    }
 
 	private void initCreaSquadre(List<Giocatore> giocatoriTitolari) {
 		Boolean areSquadreCreated = squadraController.areSquadreCreated(squadra.getId());
@@ -133,7 +134,7 @@ public class MercatoControllerFx {
 	        Long idGiocatore = Long.parseLong(idGiocatoreString);
 			Giocatore giocatore = giocatoreController.findById(idGiocatore);
 			giocatoreController.compraGiocatore(giocatore, squadra.getId(), allenatore);
-			initialize();
+			initialize(url, resBundle);
 	    }
 	}
 
@@ -148,7 +149,7 @@ public class MercatoControllerFx {
 		String nomeSquadra = tfNomeSquadra.getText();
 		squadra = squadraController.save(nomeSquadra, allenatore);
 		Main.setSquadra(squadra);
-		initialize();
+		initialize(url, resBundle);
 	}
 
 	private void initMercato() {

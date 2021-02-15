@@ -1,0 +1,183 @@
+
+#webapp.model.Allenatore#hashCode()I_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java7 7("13*ü
+13_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java8 8(≠
+™
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java: :(%
+%0java.lang.Integer"__id*(*&
+webapp.model.Allenatore"	
+crediti*
+11
+12*œ
+1_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java= =(J"i
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java> >(
+""*Ÿ
+2_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=6 =(>Æ
+´
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=6 =(>
+%19java.lang.String"__id*)*'
+webapp.model.Allenatore"
+
+usernameµ≤
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=6 =(I
+
+%18int"java.lang.String#hashCode()I*
+
+%19java.lang.String2
+hashCode()Ñ
+Å
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=6 =(I
+
+%16int"__id*
+
+
+%18int*
+1*
+3_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=2 =(3Ñ
+Å
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java=2 =(3
+
+%16int"__id*
+
+
+%17int*
+1*ù
+4_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java< <(JÆ
+´
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java= =(&
+%15java.lang.String"__id*)*'
+webapp.model.Allenatore"
+
+username*
+2
+3*Ÿ
+5_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<6 <(>Æ
+´
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<6 <(>
+%14java.lang.String"__id*)*'
+webapp.model.Allenatore"
+
+passwordµ≤
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<6 <(I
+
+%13int"java.lang.String#hashCode()I*
+
+%14java.lang.String2
+hashCode()Ñ
+Å
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<6 <(I
+
+%11int"__id*
+
+
+%13int*
+4*
+6_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<2 <(3Ñ
+Å
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java<2 <(3
+
+%11int"__id*
+
+
+%12int*
+4*ù
+7_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java; ;(>Æ
+´
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java< <(&
+%10java.lang.String"__id*)*'
+webapp.model.Allenatore"
+
+password*
+5
+6*«
+8_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;0 ;(2•
+¢
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;0 ;(2
+%9java.lang.Long"__id*#*!
+webapp.model.Allenatore"
+idØ¨
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;0 ;(=	
+%8int"java.lang.Long#hashCode()I*
+
+%9java.lang.Long2
+hashCode()Å
+
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;0 ;(=	
+%6int"__id*
+	
+%8int*
+7*Ì
+9_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;, ;(-Å
+
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java;, ;(-	
+%6int"__id*
+	
+%7int*
+7*ï
+10_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java: :(H•
+¢
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java; ;( 
+%5java.lang.Long"__id*#*!
+webapp.model.Allenatore"
+id*
+8
+9*◊
+11_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:5 :(<≠
+™
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:5 :(<
+%4java.lang.Integer"__id*(*&
+webapp.model.Allenatore"	
+creditiµ≤
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:5 :(G	
+%3int"java.lang.Integer#hashCode()I*
+
+%4java.lang.Integer2
+hashCode()Å
+
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:5 :(G	
+%1int"__id*
+	
+%3int*
+10*Ô
+12_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:1 :(2Å
+
+_
+UC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Allenatore.java:1 :(2	
+%1int"__id*
+	
+%2int*
+10B
+webapp.model.Allenatore

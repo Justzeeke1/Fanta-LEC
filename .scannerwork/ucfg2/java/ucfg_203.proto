@@ -1,0 +1,55 @@
+
+fwebapp.control.SquadraController#checkSquadraPresente(Lwebapp/model/Allenatore;)Lwebapp/model/Squadra;h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java$ $($"7*¯
+2h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(Cº
+·
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(C'
+squadraPresentewebapp.model.Squadra"__id*
+
+%2webapp.model.Squadra*
+1*§
+5h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(C²¯
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(C
+%2webapp.model.Squadra"Mwebapp.dao.DAOSquadra#squadraPresente(Ljava/lang/Long;)Lwebapp/model/Squadra;*
+
+%0webapp.dao.DAOSquadra*
+
+%1java.lang.Long2!squadraPresente(Ljava/lang/Long;)*
+2*¤
+6h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(Æ
+Ã
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java' '(
+%0webapp.dao.DAOSquadra"__id*4*2"
+ webapp.control.SquadraController"
+
+daoSquadraæã
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java'0 '(B
+%1java.lang.Long"/webapp.model.Allenatore#getId()Ljava/lang/Long;*'
+%
+
+allenatorewebapp.model.Allenatore2getId()*
+5*™
+7h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java% %( ¤
+¡
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java% %(!'
+squadraPresentewebapp.model.Squadra"__id*
+""*
+6*…
+1h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java+	 +("•
+h
+^C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/SquadraController.java+ +()
+'
+squadraPresentewebapp.model.Squadra:%
+
+allenatorewebapp.model.AllenatoreB$"
+ webapp.control.SquadraController

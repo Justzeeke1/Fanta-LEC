@@ -1,6 +1,5 @@
 package javafxapp.control;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +8,7 @@ import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -27,7 +27,7 @@ import webapp.model.Allenatore;
 import webapp.model.Giocatore;
 import webapp.model.Squadra;
 
-public class HomeControllerFx {
+public class HomeControllerFx implements Initializable {
 	
 	private static HomeControllerFx INSTANCE = null;
 	
@@ -38,6 +38,7 @@ public class HomeControllerFx {
 		return INSTANCE;
 	}
 
+	MainControllerFx mainControllerFx = MainControllerFx.getInstance();
 	LoginControllerFx loginControllerFx = LoginControllerFx.getInstance();
 	AllenatoreController allenatoreController = AllenatoreController.getInstance();
 	SquadraController squadraController = SquadraController.getInstance();
@@ -47,9 +48,9 @@ public class HomeControllerFx {
 	Parent root;
 	Stage primaryStage;
 	Allenatore allenatore;
-	Squadra squadra;
-	Squadra squadraAvversaria;
-	List<Squadra> classifica;
+	public static Squadra squadra;
+	public static Squadra squadraAvversaria;
+	public static List<Squadra> classifica;
 	List<String> scontri;
 	Long idGiornata;
 
@@ -108,20 +109,16 @@ public class HomeControllerFx {
 	@FXML
 	private ImageView imgSconfitta;
 	@FXML
-    private URL location;
-    @FXML
-    private ResourceBundle resources = null;
+	Button buttonAggiorna;
+	public static URL url;
+	public static ResourceBundle resBundle;
 
-	public void initialize() {
-		try {
-			location = new URL("file:/C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/build/classes/javafxapp/control/home.fxml");
-		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		buttonContinua.setVisible(false);
-		imgVittoria.setVisible(false);
-		imgSconfitta.setVisible(false);
+    @Override
+	public void initialize(URL location, ResourceBundle rs) {
+    	url = location;
+    	resBundle = rs;
+    	System.out.println(url);
+    	System.out.println(resBundle);
 		allenatore = Main.getAllenatore();
 		squadra = Main.getSquadra();
 		List<Giocatore> giocatoriTotali = new ArrayList<Giocatore>();
@@ -140,14 +137,18 @@ public class HomeControllerFx {
 
 		initGiornate();
 		giocatoriTotali = initSquadre();
-		initGiocatori(giocatoriTotali, giocatoriTitolari, giocatoriTotaliAvversario, giocatoriTitolariAvversario,
-				squadraAvversaria);
+		initGiocatori(giocatoriTotali, giocatoriTitolari, giocatoriTotaliAvversario, giocatoriTitolariAvversario);
 		giocatoriTitolari = giocatoreController.orderTeamView(giocatoriTitolari);
 		giocatoriTitolariAvversario = giocatoreController.orderTeamView(giocatoriTitolariAvversario);
 		setTables(giocatoriTitolari, giocatoriTitolariAvversario);
 		initErrors(giocatoriTitolari, giocatoriTitolariAvversario);
 	}
-
+    
+    @FXML
+    public void aggiorna() {
+    	initialize(url, resBundle);
+    }
+    
 	@FXML
 	public void gioca() {
 		squadraController.gioca(scontri, idGiornata);
@@ -166,7 +167,10 @@ public class HomeControllerFx {
 
 	@FXML
 	public void continua() {
-		loginControllerFx.goToHome();
+		initialize(url, resBundle);
+		buttonContinua.setVisible(false);
+		imgVittoria.setVisible(false);
+		imgSconfitta.setVisible(false);
 	}
 
 	private void initErrors(List<Giocatore> giocatoriTitolari, List<Giocatore> giocatoriTitolariAvversario) {
@@ -196,8 +200,7 @@ public class HomeControllerFx {
 	}
 
 	private void initGiocatori(List<Giocatore> giocatoriTotali, List<Giocatore> giocatoriTitolari,
-			List<Giocatore> giocatoriTotaliAvversario, List<Giocatore> giocatoriTitolariAvversario,
-			Squadra squadraAvversaria) {
+			List<Giocatore> giocatoriTotaliAvversario, List<Giocatore> giocatoriTitolariAvversario) {
 		for (Giocatore giocatore : giocatoriTotali) {
 			if (!giocatore.getRiserva()) {
 				giocatoriTitolari.add(giocatore);

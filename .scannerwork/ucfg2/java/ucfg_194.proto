@@ -1,0 +1,82 @@
+
+\webapp.dao.DAOSquadra#areSquadreCreated(Ljava/util/List;Ljava/lang/Long;)Ljava/lang/Boolean;_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaø ø(!"2*ª
+2_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¿ ¿(ì
+ê
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¿ ¿(
+squadrawebapp.model.Squadra"__id*
+""∂
+≥
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¿ ¿(
+squadrawebapp.model.Squadra"
+__arrayGet*
+
+squadrejava.util.List*
+""*
+5
+1*œ
+3_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaƒ ƒ("i
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaƒ ƒ(
+""*˘
+4_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¬  ¬(,∂
+≥
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¬  ¬(,
+%2webapp.dao.DAOGiocatore"__id*+*)
+webapp.dao.DAOSquadra"
+daoGiocatore‘—
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¬; ¬(J
+%3java.lang.Long",webapp.model.Squadra#getId()Ljava/lang/Long;*!
+
+squadrawebapp.model.Squadra2getId()ùö
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¬  ¬(K
+%4java.util.List"Gwebapp.dao.DAOGiocatore#findAllMyTeam(Ljava/lang/Long;)Ljava/util/List;*
+
+%2webapp.dao.DAOGiocatore*
+
+%3java.lang.Long2findAllMyTeam(Ljava/lang/Long;)ü
+ú
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¬ ¬(L
+	giocatorijava.util.List"__id*
+
+%4java.util.List∏µ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java√	 √(
+%5boolean"java.util.List#isEmpty()Z*
+
+	giocatorijava.util.List2	isEmpty()*
+2
+3*ª
+5_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¡ ¡(‘—
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¡ ¡(
+%0java.lang.Long",webapp.model.Squadra#getId()Ljava/lang/Long;*!
+
+squadrawebapp.model.Squadra2getId()ıÚ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java¡ ¡(+
+%1boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Long* 
+
+idMiaSquadrajava.lang.Long2equals(Ljava/lang/Object;)*
+2
+4*œ
+1_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java»	 »("i
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java» »(
+"":
+squadrejava.util.List:
+idMiaSquadrajava.lang.LongB
+webapp.dao.DAOSquadra

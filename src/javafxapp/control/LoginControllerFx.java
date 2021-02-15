@@ -30,6 +30,7 @@ public class LoginControllerFx implements Initializable {
 		return INSTANCE;
 	}
 	
+	MainControllerFx mainControllerFx = MainControllerFx.getInstance();
 	AllenatoreController allenatoreController = AllenatoreController.getInstance();
 	SquadraController squadraController = SquadraController.getInstance();
 	Boolean isLogin;
@@ -118,8 +119,9 @@ public class LoginControllerFx implements Initializable {
 	}
 	
 	public void goToHome() {
+		root = Main.getRoot();
+		primaryStage = Main.getStage();
 		try {
-			root = Main.getRoot();
 			primaryStage = Main.getStage();
 			root = FXMLLoader.load(getClass().getResource("/javafxapp/control/Container.fxml"));
 			Scene scene = new Scene(root);
@@ -132,6 +134,8 @@ public class LoginControllerFx implements Initializable {
 			System.out.println(e.getMessage());
 		}
 	}
+	
+	
 	
 	@FXML
 	public void gioca(ActionEvent event) {

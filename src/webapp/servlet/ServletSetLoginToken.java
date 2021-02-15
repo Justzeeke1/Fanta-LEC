@@ -17,12 +17,10 @@ public class ServletSetLoginToken extends HttpServlet {
 
     public ServletSetLoginToken() {
         super();
-        // TODO Auto-generated constructor stub
     }
     
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		String token = request.getParameter("token");
 		if (token == null) {
 			token = (String) request.getAttribute("token");

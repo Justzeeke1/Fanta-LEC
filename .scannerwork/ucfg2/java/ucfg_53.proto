@@ -1,0 +1,51 @@
+
+kwebapp.control.AllenatoreController#validate(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java ("6*∂
+4k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (5æ
+ª
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (5%
+
+allenatorewebapp.model.Allenatore"__id*
+
+%1webapp.model.Allenatore*
+1*º
+5k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (»
+≈
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (
+%0webapp.dao.DAOLogin"__id*5*3%
+#webapp.control.AllenatoreController"
+
+daoLogin˘ˆ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (5
+%1webapp.model.Allenatore"[webapp.dao.DAOLogin#validate(Ljava/lang/String;Ljava/lang/String;)Lwebapp/model/Allenatore;*
+
+%0webapp.dao.DAOLogin*
+
+usernamejava.lang.String*
+
+passwordjava.lang.String2.validate(Ljava/lang/String;Ljava/lang/String;)*
+4*ù
+6k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java (!•
+¢
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java ("%
+
+allenatorewebapp.model.Allenatore"__id*
+""*
+5*â
+1k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java$ $("ñ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java$ $('
+%
+
+allenatorewebapp.model.Allenatore:
+usernamejava.lang.String:
+passwordjava.lang.StringB'%
+#webapp.control.AllenatoreController

@@ -1,0 +1,44 @@
+
+Hwebapp.control.GiornataController#getGiornataDaGiocare()Ljava/lang/Long;i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java ($"6*†
+2i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (2™
+ß
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (2
+
+idGiornatajava.lang.Long"__id*
+
+%1java.lang.Long*
+1*æ
+5i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java ( 
+«
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (
+%0webapp.dao.DAOGiornata"__id*6*4#
+!webapp.control.GiornataController"
+daoGiornata˚¯
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (2
+%1java.lang.Long"=webapp.dao.DAOGiornata#getGiornataDaGiocare()Ljava/lang/Long;*
+
+%0webapp.dao.DAOGiornata2getGiornataDaGiocare()*
+2*ê
+6i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (ö
+ó
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (
+
+idGiornatajava.lang.Long"__id*
+""*
+5*¸
+1i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java	 ("ã
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java (
+
+
+idGiornatajava.lang.LongB%#
+!webapp.control.GiornataController

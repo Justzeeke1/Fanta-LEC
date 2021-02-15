@@ -1,0 +1,130 @@
+
+Xwebapp.dao.DAOGiornata#getScontriByIdGiornataDaGiocare(Ljava/lang/Long;)Ljava/util/List;^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java% %(4"15*‹
+13^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java) )(7©
+¶
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java) )(7!
+
+connectionjava.sql.Connection"__id*
+
+%3java.sql.Connection√¿
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java*" *(D 
+%4java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*#
+!
+
+connectionjava.sql.Connection*
+
+queryjava.lang.String2$prepareStatement(Ljava/lang/String;)*
+12*·
+14^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java) )('ÙÒ
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java) )(7
+%3java.sql.Connection"<webapp.model.DataSource#getConnection()Ljava/sql/Connection;*%
+#
+instancewebapp.model.DataSource2getConnection()*
+13*ô	
+15^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java& &("ﬂ
+‹
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java& &(0
+%0webapp.model.DataSource">webapp.model.DataSource#getInstance()Lwebapp/model/DataSource;*"
+webapp.model.DataSourceØ
+¨
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java& &(1#
+instancewebapp.model.DataSource"__id*
+
+%0webapp.model.DataSourceìê
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java' '(.
+%1java.util.ArrayList"java.util.ArrayList•
+¢
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java' '(0
+%2"java.util.ArrayList#<init>()V*
+
+%1java.util.ArrayList°
+û
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java' '(1
+scontrijava.util.List"__id*
+
+%1java.util.ArrayList∂
+≥
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java( ((@
+queryjava.lang.String"__id*0.
+,SELECT * FROM giornata WHERE giornata.id = ?*
+14*á
+7^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java. .('ú
+ô
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java. .('
+scontrijava.util.List"__id*
+
+%8java.util.List*
+1*
+8^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java. .(Ö
+Ç
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java. .('
+%8java.util.List"Kwebapp.dao.DAOGiornata#mapRowGiornata(Ljava/sql/ResultSet;)Ljava/util/List;*
+webapp.dao.DAOGiornata*!
+
+	resultSetjava.sql.ResultSet*
+7*—
+10^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java, ,(2¶
+£
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java, ,(2
+	resultSetjava.sql.ResultSet"__id*
+
+%6java.sql.ResultSetπ∂
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java- -(
+%7boolean"java.sql.ResultSet#next()Z*!
+
+	resultSetjava.sql.ResultSet2next()*
+8
+1*‰
+11^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java, ,("˜Ù
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java, ,(1
+%6java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*)
+'
+	statementjava.sql.PreparedStatement2executeQuery()*
+10*î
+12^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java* *(D∂
+≥
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java* *(D'
+	statementjava.sql.PreparedStatement"__id*"
+ 
+%4java.sql.PreparedStatementÓÎ
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java+ +(
+
+%5void"'java.sql.PreparedStatement#setLong(IJ)V*)
+'
+	statementjava.sql.PreparedStatement*2*
+
+idjava.lang.Long2setLong(IJ)*
+11*‚
+1^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java4	 4("}
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOGiornata.java4 4(
+
+scontrijava.util.List:
+idjava.lang.LongB
+webapp.dao.DAOGiornata

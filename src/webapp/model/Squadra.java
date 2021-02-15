@@ -69,6 +69,54 @@ public class Squadra {
 	public void setAllenatore(Allenatore allenatore) {
 		this.allenatore = allenatore;
 	}
+	
+	
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((allenatore == null) ? 0 : allenatore.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
+		result = prime * result + punteggio;
+		result = prime * result + sconfitte;
+		result = prime * result + vittorie;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Squadra other = (Squadra) obj;
+		if (allenatore == null) {
+			if (other.allenatore != null)
+				return false;
+		} else if (!allenatore.equals(other.allenatore))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		if (nome == null) {
+			if (other.nome != null)
+				return false;
+		} else if (!nome.equals(other.nome))
+			return false;
+		if (punteggio != other.punteggio)
+			return false;
+		if (sconfitte != other.sconfitte)
+			return false;
+		if (vittorie != other.vittorie)
+			return false;
+		return true;
+	}
 
 	@Override
 	public String toString() {

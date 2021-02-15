@@ -1,0 +1,61 @@
+
+_webapp.dao.DAOSquadra#findGiocatore(Ljava/util/List;Ljava/lang/String;)Lwebapp/model/Giocatore;_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java„ „( "2*≈
+2_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java‰ ‰(ó
+î
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java‰ ‰(#
+	giocatorewebapp.model.Giocatore"__id*
+""º
+π
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java‰ ‰(#
+	giocatorewebapp.model.Giocatore"
+__arrayGet*
+
+	giocatorijava.util.List*
+""*
+4
+1*Ô
+3_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÊ Ê("à
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÊ Ê(%
+#
+	giocatorewebapp.model.Giocatore* 
+4_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÂ Â(‰·
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÂ Â(
+%0java.lang.String"3webapp.model.Giocatore#getRuolo()Ljava/lang/String;*%
+#
+	giocatorewebapp.model.Giocatore2
+getRuolo()ÙÒ
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÂ Â()
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.String*
+
+ruolojava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*¥
+1_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÈ	 È(öó
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÈ È(
+%2webapp.model.Giocatore"webapp.model.Giocatore¨
+©
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÈ	 È(
+%3" webapp.model.Giocatore#<init>()V*
+
+%2webapp.model.Giocatore"Å
+_
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.javaÈ È(
+
+%2webapp.model.Giocatore:
+	giocatorijava.util.List:
+ruolojava.lang.StringB
+webapp.dao.DAOSquadra

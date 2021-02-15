@@ -12,7 +12,7 @@
 <%@ page import="webapp.model.Allenatore" %>
 <%@ page import="webapp.model.Giocatore" %>
 <!DOCTYPE html>
-<html>
+<html lang="it">
    <head>
       <meta charset="UTF-8">
       <title>Fanta LEC</title>
@@ -54,7 +54,7 @@
             </form>
             <% } %>
             <p style="text-align: right">I miei crediti: <%=allenatore.getCrediti() %></p>
-            <table class="table table-secondary table-striped">
+            <table aria-label="" class="table table-secondary table-striped">
                <thead>
                   <tr>
                      <th scope="col">Overall</th>

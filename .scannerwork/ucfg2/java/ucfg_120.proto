@@ -1,0 +1,68 @@
+
+Nwebapp.dao.DAOAllenatore#mapRow(Ljava/sql/ResultSet;)Lwebapp/model/Allenatore;`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ("1*•
+1`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (∆√
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java ( 
+
+%0long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)è
+å
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java (!
+idjava.lang.Long"__id*
+
+
+%0longÁ‰
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java   (*
+%1java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)£
+†
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java   (+
+usernamejava.lang.String"__id*
+
+%1java.lang.StringÁ‰
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java! !(*
+%2java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)£
+†
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java! !(+
+passwordjava.lang.String"__id*
+
+%2java.lang.String√¿
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java" "(#	
+%3int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)ùö
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java# #(
+%4webapp.model.Allenatore"webapp.model.Allenatore÷
+”
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java#	 #(8
+%5"hwebapp.model.Allenatore#<init>(Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V*
+
+%4webapp.model.Allenatore*
+
+idjava.lang.Long*
+
+usernamejava.lang.String*
+
+passwordjava.lang.String*
+"""É
+`
+VC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOAllenatore.java# #(9
+
+%4webapp.model.Allenatore:
+	resultSetjava.sql.ResultSetB
+webapp.dao.DAOAllenatore

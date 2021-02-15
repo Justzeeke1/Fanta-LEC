@@ -1,0 +1,54 @@
+
+cwebapp.control.GiornataController#getScontriByIdGiornataDaGiocare(Ljava/lang/Long;)Ljava/util/List;i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java! !(7"6*ù
+2i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java$ $(<ß
+§
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java$ $(<
+scontrijava.util.List"__id*
+
+%3java.util.List*
+1*å
+5i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java$ $( 
+«
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java$ $(
+%2webapp.dao.DAOGiornata"__id*6*4#
+!webapp.control.GiornataController"
+daoGiornata…∆
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java$ $(<
+%3java.util.List"Xwebapp.dao.DAOGiornata#getScontriByIdGiornataDaGiocare(Ljava/lang/Long;)Ljava/util/List;*
+
+%2webapp.dao.DAOGiornata*
+
+idjava.lang.Long21getScontriByIdGiornataDaGiocare(Ljava/lang/Long;)*
+2*ˆ
+6i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java" "(3ûõ
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java"  "(1
+%0java.util.ArrayList"java.util.ArrayList∞
+≠
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java" "(3
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList¨
+©
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java" "(4
+scontrijava.util.List"__id*
+
+%0java.util.ArrayList*
+5*˘
+1i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java( (("à
+i
+_C:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/GiornataController.java( ((
+
+scontrijava.util.List:
+idjava.lang.LongB%#
+!webapp.control.GiornataController

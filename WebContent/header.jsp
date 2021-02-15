@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="it">
    <head>
       <style>
          <%@include file="/WEB-INF/css/skinHeader.css"%>
@@ -15,7 +15,7 @@
          <nav class="container d-flex flex-column flex-md-row justify-content-between">
             <a class="py-2 d-none d-md-inline-block"></a>
             <a class="py-2 fantalec">
-            <img class="header-img" src="logoLec.png">Fanta LEC
+            <img class="header-img" alt='' src="logoLec.png">Fanta LEC
             </a>
             <a class="py-2 d-md-inline-block"></a>
             <a class="py-2 d-md-inline-block"></a>

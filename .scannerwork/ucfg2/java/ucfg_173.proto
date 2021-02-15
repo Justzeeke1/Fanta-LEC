@@ -1,0 +1,138 @@
+
+3webapp.model.Giocatore#toString()Ljava/lang/String;^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java_ _("1*ý
+1^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(£
+ 
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java` `( 
+%0java.lang.Long"__id*"* 
+webapp.model.Giocatore"
+id³
+°
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `( 
+%1java.lang.String"__concat*
+Giocatore: ID = *
+
+%0java.lang.Long²
+¯
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(2
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, Nickname = «
+¨
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`5 `(=
+%3java.lang.String"__id*(*&
+webapp.model.Giocatore"
+
+nickname¹
+¶
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(=
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String¯
+¬
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(L
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, Ruolo = ¨
+¥
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`O `(T
+%6java.lang.String"__id*%*#
+webapp.model.Giocatore"
+ruolo¹
+¶
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(T
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.String±
+®
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(e
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, Overall = §
+¤
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 `(o
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+""±
+®
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+, Prezzo = ©
+¦
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+""µ
+²
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(/
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+, Link Foto = ¬
+©
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.javaa2 a(:
+%13java.lang.String"__id*(*&
+webapp.model.Giocatore"
+
+linkFoto¼
+¹
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(:
+%14java.lang.String"__concat*
+
+%12java.lang.String*
+
+%13java.lang.String³
+°
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(K
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+, Riserva = ¬
+©
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.javaaN a(U
+%16java.lang.Boolean"__id*'*%
+webapp.model.Giocatore"	
+riserva½
+º
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java`	 a(U
+%17java.lang.String"__concat*
+
+%15java.lang.String*
+
+%16java.lang.Boolean"{
+^
+TC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/model/Giocatore.java` a(V
+
+%17java.lang.StringB
+webapp.model.Giocatore

@@ -1,0 +1,104 @@
+
+Hwebapp.dao.DAOSquadra#mapRow(Ljava/sql/ResultSet;)Lwebapp/model/Squadra;]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java( (("1*õ
+1]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java) )(ÃÀ
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java) )( 
+
+%0long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)Œ
+‰
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java) )(!
+idjava.lang.Long"__id*
+
+
+%0longäá
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java* *(&
+%1java.lang.String"1java.sql.ResultSet#getString(I)Ljava/lang/String;*!
+
+	resultSetjava.sql.ResultSet*22getString(I)œ
+™
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java* *('
+nomejava.lang.String"__id*
+
+%1java.lang.StringÀ½
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java+ +($	
+%2int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)À½
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java, ,(%	
+%3int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)À½
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java- -(%	
+%4int"java.sql.ResultSet#getInt(I)I*!
+
+	resultSetjava.sql.ResultSet*22	getInt(I)ÃÀ
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java. .(*
+
+%5long"java.sql.ResultSet#getLong(I)J*!
+
+	resultSetjava.sql.ResultSet*22
+getLong(I)–
+“
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java. .(+
+idAllenatorejava.lang.Long"__id*
+
+
+%5long¶
+³
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java/ /('
+%6webapp.dao.DAOAllenatore"__id*,**
+webapp.dao.DAOSquadra"
+daoAllenatore¯¬
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java/ /(>
+%7webapp.model.Allenatore"Lwebapp.dao.DAOAllenatore#findById(Ljava/lang/Long;)Lwebapp/model/Allenatore;* 
+
+%6webapp.dao.DAOAllenatore* 
+
+idAllenatorejava.lang.Long2findById(Ljava/lang/Long;)°
+­
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java/ /(?%
+
+allenatorewebapp.model.Allenatore"__id*
+
+%7webapp.model.Allenatore”‘
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java0 0(
+%8webapp.model.Squadra"webapp.model.SquadraÙ
+Ö
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java0	 0(J
+%9"\webapp.model.Squadra#<init>(Ljava/lang/Long;Ljava/lang/String;IIILwebapp/model/Allenatore;)V*
+
+%8webapp.model.Squadra*
+
+idjava.lang.Long*
+
+nomejava.lang.String*
+""*
+""*
+""*'
+%
+
+allenatorewebapp.model.Allenatore"}
+]
+SC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/dao/DAOSquadra.java0 0(K
+
+%8webapp.model.Squadra:
+	resultSetjava.sql.ResultSetB
+webapp.dao.DAOSquadra

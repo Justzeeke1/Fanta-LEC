@@ -1,0 +1,54 @@
+
+=webapp.control.AllenatoreController#findAll()Ljava/util/List;k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java1 1( "6*§
+2k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java4 4('¨
+©
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java4 4('
+
+allenatorijava.util.List"__id*
+
+%3java.util.List*
+1*¥
+5k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java4 4(“
+œ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java4 4(
+%2webapp.dao.DAOAllenatore"__id*:*8%
+#webapp.control.AllenatoreController"
+daoAllenatoreÁ‰
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java4 4('
+%3java.util.List"2webapp.dao.DAOAllenatore#findAll()Ljava/util/List;* 
+
+%2webapp.dao.DAOAllenatore2	findAll()*
+2*Å
+6k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java2  2(;†ù
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java2$ 2(9
+%0java.util.ArrayList"java.util.ArrayList≤
+Ø
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java2  2(;
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList±
+Æ
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java2 2(<
+
+allenatorijava.util.List"__id*
+
+%0java.util.ArrayList*
+5*Ä
+1k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java8	 8("ç
+k
+aC:/Users/justz/eclipse-workspace-serv/Progetto_Marco/src/webapp/control/AllenatoreController.java8 8(
+
+
+allenatorijava.util.ListB'%
+#webapp.control.AllenatoreController
